@@ -4,3 +4,10 @@ C:\Users\Usuario\Desktop\Programacion 2\clase 1\Mamani.Erika.2A\EClases1\bin\Deb
 C:\Users\Usuario\Desktop\Programacion 2\clase 1\Mamani.Erika.2A\EClases1\obj\Debug\EClases1.csproj.CoreCompileInputs.cache
 C:\Users\Usuario\Desktop\Programacion 2\clase 1\Mamani.Erika.2A\EClases1\obj\Debug\EClases1.exe
 C:\Users\Usuario\Desktop\Programacion 2\clase 1\Mamani.Erika.2A\EClases1\obj\Debug\EClases1.pdb
+C:\Users\alumno\Desktop\P\Ejercicios\Mamani.Erika.2A\EClases1\bin\Debug\EClases1.exe.config
+C:\Users\alumno\Desktop\P\Ejercicios\Mamani.Erika.2A\EClases1\bin\Debug\EClases1.exe
+C:\Users\alumno\Desktop\P\Ejercicios\Mamani.Erika.2A\EClases1\bin\Debug\EClases1.pdb
+C:\Users\alumno\Desktop\P\Ejercicios\Mamani.Erika.2A\EClases1\obj\Debug\EClases1.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\P\Ejercicios\Mamani.Erika.2A\EClases1\obj\Debug\EClases1.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\P\Ejercicios\Mamani.Erika.2A\EClases1\obj\Debug\EClases1.exe
+C:\Users\alumno\Desktop\P\Ejercicios\Mamani.Erika.2A\EClases1\obj\Debug\EClases1.pdb

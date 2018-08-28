@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,10 +11,11 @@ namespace EClases1
     {
         static void Main(string[] args)
         {
-            Sello.mensaje = "Meli";
+            Console.Title = "Clase Sello";
+            Sello.mensaje = "lalala";
             Sello.color = ConsoleColor.Magenta;
 
-            //Console.Write(Sello.Imprimir());
+            Console.WriteLine(Sello.Imprimir());
             //Sello.Borrar();
             Sello.ImprimirEnColor();
             
