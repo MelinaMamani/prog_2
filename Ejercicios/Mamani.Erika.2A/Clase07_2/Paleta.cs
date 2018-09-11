@@ -12,7 +12,7 @@ namespace Entidades.Clase07
     private int _cantMaxElementos;
 
     #region Constructores
-    private Paleta() : this(5)
+    private Paleta() : this(5) //llamada en main: Paleta p = 8; porque es privado
     {
     }
 
@@ -47,6 +47,90 @@ namespace Entidades.Clase07
     {
       Paleta pal = new Paleta(cant);
       return pal;
+    }
+
+    private int ObtenerIndice()
+    {
+      int indice = -1;
+
+      for (int i = 0; i < this._cantMaxElementos; i++)
+      {
+        if(this._colores[i] == null)
+        {
+          indice = i;
+          break;
+        }
+      }
+
+      return indice;
+    }
+
+    private int ObtenerIndice(Tempera t)
+    {
+      int indice = 0;
+
+      for (int i = 0; i < this._cantMaxElementos; i++)
+      {
+        if(this._colores[i] != null)
+        {
+          if (this._colores[i] == t)
+          {
+            indice = i;
+            break;
+          }
+        }
+      }
+
+      return indice;
+    }
+    #endregion
+
+    #region Sobrecarga
+    public static bool operator ==(Paleta p, Tempera t)
+    {
+      bool verif = false;
+
+      if(!(Object.Equals(p,null)) && !(Object.Equals(t, null)))
+      {
+        for (int i = 0; i < p._cantMaxElementos ; i++)
+        {
+          //si el array no tiene muchos elementos, es null
+          if (p._colores.GetValue(i) != null) 
+          {
+            if(p._colores[i] == t)
+            {
+              verif = true;
+              break;
+            }
+          }
+        }
+      }
+
+      return verif;
+    }
+
+    public static bool operator !=(Paleta p, Tempera t)
+    {
+      return !(p == t);
+    }
+
+    public static Paleta operator +(Paleta p, Tempera t)
+    {
+      int index;
+
+      if (p.ObtenerIndice(t) > -1)
+      {
+        index = p.ObtenerIndice(t);
+        p._colores[index] += t;
+      }
+
+      else if (p.ObtenerIndice() > -1)
+      {
+        index = p.ObtenerIndice();
+        p._colores[index] = t;
+      }
+
+      return p;
     }
     #endregion
   }

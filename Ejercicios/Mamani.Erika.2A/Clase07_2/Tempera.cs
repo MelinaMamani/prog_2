@@ -69,14 +69,13 @@ namespace Entidades.Clase07
 
     public static Tempera operator +(Tempera temp1, Tempera temp2)
     {
-      Tempera temp3 = new Tempera(temp1._cantidad, temp1._color, temp1._marca);
-
+      
       if(temp1 == temp2)
       {
-        temp3 += temp1._cantidad; 
+        temp1 += temp1._cantidad; 
       }
 
-      return temp3;
+      return temp1;
     }
   }
 }
