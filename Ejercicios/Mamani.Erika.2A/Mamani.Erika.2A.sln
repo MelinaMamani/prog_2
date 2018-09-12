@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase07", "Clase07\Clase07.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades.Clase07", "Clase07_2\Entidades.Clase07.csproj", "{DA8C9A70-B9C0-46DB-8BB7-988F8F7A8D79}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "WindowsFormsApp1\WindowsFormsApp1.csproj", "{7B4CFB75-486C-4189-BC9F-44DA28ED4B9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntidadesTemPal", "EntidadesTemPal\EntidadesTemPal.csproj", "{B7D21E10-C8AD-4BB7-B355-9236154ECAD4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +91,14 @@ Global
 		{DA8C9A70-B9C0-46DB-8BB7-988F8F7A8D79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA8C9A70-B9C0-46DB-8BB7-988F8F7A8D79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA8C9A70-B9C0-46DB-8BB7-988F8F7A8D79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B4CFB75-486C-4189-BC9F-44DA28ED4B9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B4CFB75-486C-4189-BC9F-44DA28ED4B9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B4CFB75-486C-4189-BC9F-44DA28ED4B9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B4CFB75-486C-4189-BC9F-44DA28ED4B9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7D21E10-C8AD-4BB7-B355-9236154ECAD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7D21E10-C8AD-4BB7-B355-9236154ECAD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7D21E10-C8AD-4BB7-B355-9236154ECAD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7D21E10-C8AD-4BB7-B355-9236154ECAD4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Entidades.Clase07
+namespace EntidadesTemPal
 {
   public class Tempera
   {
