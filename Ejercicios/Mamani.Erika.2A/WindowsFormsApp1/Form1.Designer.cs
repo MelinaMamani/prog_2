@@ -45,7 +45,7 @@ namespace WindowsFormsApp1
             this.btnAceptar.Name = "btnAceptar";
             this.btnAceptar.Size = new System.Drawing.Size(75, 23);
             this.btnAceptar.TabIndex = 0;
-            this.btnAceptar.Text = "Aceptar";
+            this.btnAceptar.Text = "+";
             this.btnAceptar.UseVisualStyleBackColor = true;
             this.btnAceptar.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -68,7 +68,7 @@ namespace WindowsFormsApp1
             this.groupBox1.Size = new System.Drawing.Size(481, 299);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "groupBox1";
+            this.groupBox1.Text = "Temperas";
             this.groupBox1.Visible = false;
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
@@ -78,8 +78,9 @@ namespace WindowsFormsApp1
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(75, 23);
             this.btnCancelar.TabIndex = 3;
-            this.btnCancelar.Text = "Cancelar";
+            this.btnCancelar.Text = "-";
             this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // menuStrip1
             // 
@@ -103,7 +104,7 @@ namespace WindowsFormsApp1
             // agregarPaletaToolStripMenuItem
             // 
             this.agregarPaletaToolStripMenuItem.Name = "agregarPaletaToolStripMenuItem";
-            this.agregarPaletaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.agregarPaletaToolStripMenuItem.Size = new System.Drawing.Size(151, 22);
             this.agregarPaletaToolStripMenuItem.Text = "Agregar Paleta";
             this.agregarPaletaToolStripMenuItem.Click += new System.EventHandler(this.agregarPaletaToolStripMenuItem_Click);
             // 

@@ -28,13 +28,19 @@ namespace EntidadesTemPal
     {
       string mensaje = "Cant. elem: ";
       mensaje += this._cantMaxElementos.ToString();
-      mensaje += "\nColores: \n";
+      mensaje += "\r\nColores:";
+      string cadenaAux = "";
+      string cadenaAux2 = "";
 
-      foreach (Tempera elem in this._colores)
+      foreach (Tempera temperas in this._colores)
       {
-        mensaje += elem + "\n";
+        if (!(Object.Equals(temperas, null)))
+        {
+           cadenaAux2 = temperas;
+           cadenaAux += cadenaAux2;
+        }
       }
-
+      mensaje += cadenaAux;
       return mensaje;
     }
 
@@ -55,7 +61,7 @@ namespace EntidadesTemPal
 
       for (int i = 0; i < this._cantMaxElementos; i++)
       {
-        if(this._colores[i] == null)
+        if(this._colores.GetValue(i) == null)
         {
           indice = i;
           break;
@@ -88,25 +94,33 @@ namespace EntidadesTemPal
     #region Sobrecarga
     public static bool operator ==(Paleta p, Tempera t)
     {
-      bool verif = false;
+      //bool verif = false;
 
-      if(!(Object.Equals(p,null)) && !(Object.Equals(t, null)))
-      {
-        for (int i = 0; i < p._cantMaxElementos ; i++)
+      //if(!(Object.Equals(p,null)) && !(Object.Equals(t, null)))
+      //{
+        foreach (Tempera item in p._colores)
         {
-          //si el array no tiene muchos elementos, es null
-          if (p._colores.GetValue(i) != null) 
-          {
-            if(p._colores[i] == t)
-            {
-              verif = true;
-              break;
-            }
-          }
+           if (!(Object.Equals(item, null)) && t == item)
+           {
+              return true;
+           }
         }
-      }
+        return false;
+                //for (int i = 0; i < p._cantMaxElementos ; i++)
+                //{
+                //  //si el array no tiene muchos elementos, es null
+                //  if (p._colores.GetValue(i) != null) 
+                //  {
+                //    if(p._colores[i] == t)
+                //    {
+                //      verif = true;
+                //      break;
+                //    }
+                //  }
+                //}
+            //}
 
-      return verif;
+      //return verif;
     }
 
     public static bool operator !=(Paleta p, Tempera t)
@@ -116,21 +130,24 @@ namespace EntidadesTemPal
 
     public static Paleta operator +(Paleta p, Tempera t)
     {
-      int index;
-
-      if (p.ObtenerIndice(t) > -1)
+      int indice = -1;
+      if (p == t)
       {
-        index = p.ObtenerIndice(t);
-        p._colores[index] += t;
-      }
-
-      else if (p.ObtenerIndice() > -1)
-      {
-        index = p.ObtenerIndice();
-        p._colores[index] = t;
-      }
-
-      return p;
+          indice = p.ObtenerIndice(t);
+          if (indice != -1)
+          {
+              p._colores[indice] += t;
+          }
+       }
+       else
+       {
+          indice = p.ObtenerIndice();
+          if (indice != -1)
+          {
+              p._colores[indice] = t;
+          }
+       }
+        return p;
     }
 
     public static Paleta operator -(Paleta p, Tempera t)
@@ -157,6 +174,31 @@ namespace EntidadesTemPal
 
       return p;
     }
-    #endregion
-  }
+        #endregion
+
+    #region Indexador
+        public Tempera this[int indice]
+        {
+            get
+            {
+                if (indice >= 0 && !(Object.Equals(this._colores[indice], null)) && indice < this._cantMaxElementos)
+                {
+                    return this._colores[indice];
+                }
+                else
+                {
+                    return null;
+                }
+            }
+
+            set
+            {
+                if (indice >= 0 && indice < this._cantMaxElementos)
+                {
+                    this._colores[indice] = value;
+                }
+            }
+        }
+        #endregion
+    }
 }

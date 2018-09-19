@@ -35,6 +35,11 @@ namespace WindowsFormsApp1
 
     }
 
+    public FrmTempera(Tempera tmp) : this()
+    {
+      this._miTempera = tmp;
+    }
+
     private void label1_Click(object sender, EventArgs e)
     {
 

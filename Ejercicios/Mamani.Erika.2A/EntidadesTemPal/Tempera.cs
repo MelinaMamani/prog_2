@@ -29,7 +29,7 @@ namespace EntidadesTemPal
 
     private string Mostrar()
     {
-      return this._marca + " - " + this._color + " - " + this._cantidad; 
+      return "\r\n" + this._marca + " - " + this._color + " - " + this._cantidad; 
     }
 
     public static implicit operator string(Tempera temp)
@@ -44,16 +44,7 @@ namespace EntidadesTemPal
 
     public static Boolean operator ==(Tempera temp1, Tempera temp2)
     {
-      bool verf = false;
-
-      if (!(Object.Equals(temp1, null)) && !(Object.Equals(temp2, null)))
-      {
-        if(temp1._marca == temp2._marca && temp1._color == temp2._color)
-        {
-          verf = true;
-        }
-      }
-      return verf;
+      return (temp1._color == temp2._color) && (temp1._marca == temp2._marca);
     }
 
     public static Boolean operator !=(Tempera temp1, Tempera temp2)
@@ -69,13 +60,13 @@ namespace EntidadesTemPal
 
     public static Tempera operator +(Tempera temp1, Tempera temp2)
     {
-      
-      if(temp1 == temp2)
-      {
-        temp1 += temp1._cantidad; 
-      }
+      Tempera t3 = new Tempera(temp1._cantidad, temp1._color, temp1._marca);
 
-      return temp1;
+      if (temp1 == temp2)
+      {
+          t3 += temp2._cantidad;
+      }
+      return t3;
     }
   }
 }

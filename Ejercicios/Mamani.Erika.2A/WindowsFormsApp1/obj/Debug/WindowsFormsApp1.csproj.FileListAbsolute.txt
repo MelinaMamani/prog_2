@@ -12,3 +12,17 @@ C:\Users\alumno\Desktop\Prog2\Ejercicios\Mamani.Erika.2A\WindowsFormsApp1\obj\De
 C:\Users\alumno\Desktop\Prog2\Ejercicios\Mamani.Erika.2A\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\alumno\Desktop\Prog2\Ejercicios\Mamani.Erika.2A\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
 C:\Users\alumno\Desktop\Prog2\Ejercicios\Mamani.Erika.2A\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FrmTempera.resources
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\WindowsFormsApp1\bin\Debug\EntidadesTemPal.dll
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\WindowsFormsApp1\bin\Debug\EntidadesTemPal.pdb
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FrmTempera.resources
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

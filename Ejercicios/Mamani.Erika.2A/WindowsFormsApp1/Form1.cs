@@ -68,5 +68,28 @@ namespace WindowsFormsApp1
       this.groupBox1.Visible = true;
       this.agregarPaletaToolStripMenuItem.Enabled = false; 
     }
-  }
+
+    private void btnCancelar_Click(object sender, EventArgs e)
+    {
+      int i = 0;
+      string tempera = "";
+      string seleccionado = "";
+      string[] todoElTexto = textBox1.Lines;
+      seleccionado = textBox1.SelectedText;
+
+      for (i = 2; i < textBox1.Lines.Count(); i++)
+      {
+          if (todoElTexto[i] == seleccionado)
+          {
+              i -= 2;
+              MessageBox.Show("\nTempera seleccionada: " + seleccionado + "\nIndice: " + i);
+              break;
+          }
+      }
+      FrmTempera frm = new FrmTempera(_miPaleta[i]);
+      DialogResult resultado = frm.ShowDialog();
+
+    }
+
+    }
 }
