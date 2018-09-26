@@ -15,6 +15,7 @@ namespace WindowsFormsApp1
   {
 
     Paleta _miPaleta;
+    PaletaColeccion paleta;
 
     public Form1()
     {
@@ -72,7 +73,7 @@ namespace WindowsFormsApp1
     private void btnCancelar_Click(object sender, EventArgs e)
     {
       int i = 0;
-      string tempera = "";
+      //string tempera = "";
       string seleccionado = "";
       string[] todoElTexto = textBox1.Lines;
       seleccionado = textBox1.SelectedText;
