@@ -14,13 +14,14 @@ namespace WindowsFormsApp1
   public partial class Form1 : Form
   {
 
-    Paleta _miPaleta;
+    //Paleta _miPaleta;
     PaletaColeccion paleta;
 
     public Form1()
     {
       InitializeComponent();
-      this._miPaleta = 5;
+      //this._miPaleta = 5;
+      this.paleta = 5;
       this.groupBox1.Text = "Paleta de Colores";
       this.textBox1.Multiline = true;
       this.btnAceptar.Text = "+";
@@ -39,8 +40,8 @@ namespace WindowsFormsApp1
 
       if (rta == DialogResult.OK)
       {
-        this._miPaleta += frm.MiTempera;
-        this.textBox1.Text = (string)this._miPaleta;
+        this.paleta += frm.MiTempera;
+        this.textBox1.Text = (string)this.paleta;
       }
     }
 
@@ -76,8 +77,8 @@ namespace WindowsFormsApp1
       //string tempera = "";
       string seleccionado = "";
       string[] todoElTexto = textBox1.Lines;
-      seleccionado = textBox1.SelectedText;
 
+      seleccionado = textBox1.SelectedText;
       for (i = 2; i < textBox1.Lines.Count(); i++)
       {
           if (todoElTexto[i] == seleccionado)
@@ -87,7 +88,7 @@ namespace WindowsFormsApp1
               break;
           }
       }
-      FrmTempera frm = new FrmTempera(_miPaleta[i]);
+      FrmTempera frm = new FrmTempera(paleta[i]);
       DialogResult resultado = frm.ShowDialog();
 
     }

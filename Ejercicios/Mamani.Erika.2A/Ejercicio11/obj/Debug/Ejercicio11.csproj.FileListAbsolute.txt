@@ -1,7 +1,6 @@
 C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\Ejercicio11\bin\Debug\Ejercicio11.exe.config
 C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\Ejercicio11\bin\Debug\Ejercicio11.exe
 C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\Ejercicio11\bin\Debug\Ejercicio11.pdb
-C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\Ejercicio11\obj\Debug\Ejercicio11.csprojAssemblyReference.cache
 C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\Ejercicio11\obj\Debug\Ejercicio11.csproj.CoreCompileInputs.cache
 C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\Ejercicio11\obj\Debug\Ejercicio11.exe
 C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\Ejercicio11\obj\Debug\Ejercicio11.pdb

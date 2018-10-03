@@ -38,6 +38,9 @@ namespace WindowsFormsApp1
     public FrmTempera(Tempera tmp) : this()
     {
       this._miTempera = tmp;
+      this.comboBox1.Text = (tmp.Color).ToString();
+      this.textBox1.Text = tmp.Marca;
+      this.textBox2.Text = (tmp.Cantidad).ToString();
     }
 
     private void label1_Click(object sender, EventArgs e)

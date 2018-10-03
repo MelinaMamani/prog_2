@@ -27,16 +27,19 @@ namespace EntidadesTemPal
     #region Métodos
     private string Mostrar()
     {
-      string mensaje = "Cant. elem: ";
-      mensaje += this._cantMaxElementos.ToString();
-      mensaje += "\nColores: \n";
-
-      foreach (Tempera elem in this._colores)
-      {
-        mensaje += elem + "\n";
-      }
-
-      return mensaje;
+      string retorno = "Cantidad maxima de elementos: " + this._cantMaxElementos + "\r\nColores en la paleta: ";
+      string cadenaAux = "";
+      string cadenaAux2 = "";
+            foreach (Tempera temperas in this._colores)
+            {
+                if (!(Object.Equals(temperas, null)))
+                {
+                    cadenaAux2 = temperas;
+                    cadenaAux += cadenaAux2;
+                }
+            }
+      retorno += cadenaAux;
+      return retorno;
     }
 
     public static explicit operator string(PaletaColeccion p)
@@ -89,21 +92,18 @@ namespace EntidadesTemPal
     #region Sobrecarga
     public static int operator ==(Tempera t, PaletaColeccion p)
     {
-      int index = 0;
+      int indice = -1;
+      int contador = 0;
 
-      for (int i = 0; i < p._cantMaxElementos; i++)
+      foreach (Tempera item in p._colores)
       {
-        if(p._colores[i] != null)
-        {
-          if(p._colores[i] == t)
-          {
-            index = i;
-            break;
-          }
-        }
+         if (t == item)
+         {
+           indice = contador;
+         }
+         contador++;
       }
-
-      return index;
+      return indice;
     }
 
     public static int operator !=(Tempera t, PaletaColeccion p)
@@ -113,25 +113,14 @@ namespace EntidadesTemPal
 
     public static bool operator ==(PaletaColeccion p, Tempera t)
     {
-      bool verif = false;
-
-      if (!(Object.Equals(p, null)) && !(Object.Equals(t, null)))
+      foreach (Tempera item in p._colores)
       {
-        for (int i = 0; i < p._cantMaxElementos; i++)
-        {
-          //si el array no tiene muchos elementos, es null
-          if (p._colores[i] != null) //antes: getValue()
-          {
-            if (p._colores[i] == t)
-            {
-              verif = true;
-              break;
-            }
-          }
-        }
+         if (!(Object.Equals(item, null)) && t == item)
+         {
+           return true;
+         }
       }
-
-      return verif;
+      return false;
     }
 
     public static bool operator !=(PaletaColeccion p, Tempera t)
@@ -141,46 +130,62 @@ namespace EntidadesTemPal
 
     public static PaletaColeccion operator +(PaletaColeccion p, Tempera t)
     {
-      int index;
-
-      if (p.ObtenerIndice(t) > -1)
+      int indice = -1;
+      if ((t == p) != -1)
       {
-        p._colores.Add(t);
+        indice = (t == p);
+        p._colores[indice] += t;
       }
-
-      else if (p.ObtenerIndice() > -1)
+      else if (p._colores.Count < p._cantMaxElementos)
       {
-        index = p.ObtenerIndice();
-        p._colores[index] = t;
+        p._colores.Add(t);   
       }
-
       return p;
     }
 
     public static PaletaColeccion operator -(PaletaColeccion p, Tempera t)
     {
       int index;
-      int resta;
+      int aux1, aux2;
 
-      if (p.ObtenerIndice(t) > -1)
+      index = (t == p);
+      if (index != -1)
       {
-        index = p.ObtenerIndice(t);
-        sbyte cantTem = (sbyte)t;
-        sbyte cantPal = (sbyte)p._colores[index];
-        resta = cantPal - cantTem;
-
-        if (resta <= 0)
-        {
-          p._colores[index] = null;
-        }
-        else
-        {
-          p._colores[index] += (sbyte)(cantTem * (-1));
-        }
+        aux1 = (sbyte)t;
+        p._colores[index] += (sbyte)(aux1 * (-1));
+        aux2 = (sbyte)p._colores[index];
+            if (aux2 <= 0)
+            {
+                p._colores.Remove(t);
+            }
       }
-
       return p;
     }
-    #endregion
-  }
+        #endregion
+
+    #region Indexador
+        public Tempera this[int indice]
+        {
+            get
+            {
+                if (indice >= 0 && !(Object.Equals(this._colores[indice], null)) && indice < this._cantMaxElementos)
+                {
+                    return this._colores[indice];
+                }
+                else
+                {
+                    return null;
+                }
+            }
+
+            set
+            {
+                if (indice >= 0 && indice < this._cantMaxElementos)
+                {
+                    this._colores[indice] = value;
+                }
+            }
+        }
+        #endregion
+    }
 }

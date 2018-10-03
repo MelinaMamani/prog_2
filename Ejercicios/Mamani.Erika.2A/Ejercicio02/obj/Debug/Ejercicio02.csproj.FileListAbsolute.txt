@@ -5,3 +5,9 @@ C:\Users\Usuario\Desktop\Programacion 2\clase 1\Mamani.Erika.2A\Ejercicio02\obj\
 C:\Users\Usuario\Desktop\Programacion 2\clase 1\Mamani.Erika.2A\Ejercicio02\obj\Debug\Ejercicio02.csproj.CoreCompileInputs.cache
 C:\Users\Usuario\Desktop\Programacion 2\clase 1\Mamani.Erika.2A\Ejercicio02\obj\Debug\Ejercicio02.exe
 C:\Users\Usuario\Desktop\Programacion 2\clase 1\Mamani.Erika.2A\Ejercicio02\obj\Debug\Ejercicio02.pdb
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\Ejercicio02\bin\Debug\Ejercicio02.exe.config
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\Ejercicio02\bin\Debug\Ejercicio02.exe
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\Ejercicio02\bin\Debug\Ejercicio02.pdb
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\Ejercicio02\obj\Debug\Ejercicio02.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\Ejercicio02\obj\Debug\Ejercicio02.exe
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\Ejercicio02\obj\Debug\Ejercicio02.pdb

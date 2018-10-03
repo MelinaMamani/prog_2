@@ -5,7 +5,6 @@ C:\Users\alumno\Desktop\Prog2\Ejercicios\Mamani.Erika.2A\EntidadesTemPal\obj\Deb
 C:\Users\alumno\Desktop\Prog2\Ejercicios\Mamani.Erika.2A\EntidadesTemPal\obj\Debug\EntidadesTemPal.pdb
 C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\EntidadesTemPal\bin\Debug\EntidadesTemPal.dll
 C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\EntidadesTemPal\bin\Debug\EntidadesTemPal.pdb
-C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\EntidadesTemPal\obj\Debug\EntidadesTemPal.csprojAssemblyReference.cache
 C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\EntidadesTemPal\obj\Debug\EntidadesTemPal.csproj.CoreCompileInputs.cache
 C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\EntidadesTemPal\obj\Debug\EntidadesTemPal.dll
 C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\EntidadesTemPal\obj\Debug\EntidadesTemPal.pdb

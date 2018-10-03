@@ -11,3 +11,9 @@ C:\Users\alumno\Desktop\P\Ejercicios\Mamani.Erika.2A\EClases1\obj\Debug\EClases1
 C:\Users\alumno\Desktop\P\Ejercicios\Mamani.Erika.2A\EClases1\obj\Debug\EClases1.csproj.CoreCompileInputs.cache
 C:\Users\alumno\Desktop\P\Ejercicios\Mamani.Erika.2A\EClases1\obj\Debug\EClases1.exe
 C:\Users\alumno\Desktop\P\Ejercicios\Mamani.Erika.2A\EClases1\obj\Debug\EClases1.pdb
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\EClases1\bin\Debug\EClases1.exe.config
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\EClases1\bin\Debug\EClases1.exe
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\EClases1\bin\Debug\EClases1.pdb
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\EClases1\obj\Debug\EClases1.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\EClases1\obj\Debug\EClases1.exe
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\EClases1\obj\Debug\EClases1.pdb

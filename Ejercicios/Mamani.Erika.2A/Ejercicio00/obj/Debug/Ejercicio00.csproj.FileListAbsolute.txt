@@ -12,3 +12,10 @@ C:\Users\Usuario\Desktop\Programacion 2\clase 1\Mamani.Erika.2A\Ejercicio00\obj\
 C:\Users\Usuario\Desktop\Programacion 2\clase 1\Mamani.Erika.2A\Ejercicio00\obj\Debug\Ejercicio00.csproj.CoreCompileInputs.cache
 C:\Users\Usuario\Desktop\Programacion 2\clase 1\Mamani.Erika.2A\Ejercicio00\obj\Debug\Ejercicio00.exe
 C:\Users\Usuario\Desktop\Programacion 2\clase 1\Mamani.Erika.2A\Ejercicio00\obj\Debug\Ejercicio00.pdb
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\Ejercicio00\bin\Debug\Ejercicio00.exe.config
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\Ejercicio00\bin\Debug\Ejercicio00.exe
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\Ejercicio00\bin\Debug\Ejercicio00.pdb
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\Ejercicio00\obj\Debug\Ejercicio00.csprojAssemblyReference.cache
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\Ejercicio00\obj\Debug\Ejercicio00.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\Ejercicio00\obj\Debug\Ejercicio00.exe
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\Ejercicio00\obj\Debug\Ejercicio00.pdb

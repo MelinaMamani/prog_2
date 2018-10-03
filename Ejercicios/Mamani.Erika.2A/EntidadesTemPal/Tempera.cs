@@ -12,7 +12,33 @@ namespace EntidadesTemPal
     private ConsoleColor _color;
     private string _marca;
 
-    public Tempera(sbyte cant)
+    #region Propiedades
+        public string Marca
+        {
+            get
+            {
+                return this._marca;
+            }
+        }
+
+        public sbyte Cantidad
+        {
+            get
+            {
+                return this._cantidad;
+            }
+        }
+
+        public ConsoleColor Color
+        {
+            get
+            {
+                return this._color;
+            }
+        }
+        #endregion
+
+        public Tempera(sbyte cant)
     {
       this._cantidad = cant;
     }
