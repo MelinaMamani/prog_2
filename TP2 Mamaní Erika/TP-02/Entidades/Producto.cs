@@ -15,9 +15,9 @@ namespace Entidades_2018
         {
             Serenisima, Campagnola, Arcor, Ilolay, Sancor, Pepsico
         }
-        private EMarca marca;
-        private string codigoDeBarras;
-        private ConsoleColor colorPrimarioEmpaque;
+        EMarca marca;
+        string codigoDeBarras;
+        ConsoleColor colorPrimarioEmpaque;
 
         /// <summary>
         /// ReadOnly: Retornará la cantidad de ruedas del vehículo
@@ -27,7 +27,7 @@ namespace Entidades_2018
         /// <summary>
         /// Constructor de Producto.
         /// </summary>
-        public Producto(string patente, EMarca marca, ConsoleColor color)
+        protected Producto(string patente, EMarca marca, ConsoleColor color)
         {
             this.codigoDeBarras = patente;
             this.marca = marca;
@@ -38,21 +38,21 @@ namespace Entidades_2018
         /// Publica todos los datos del Producto.
         /// </summary>
         /// <returns></returns>
-        public string Mostrar()
+        public virtual string Mostrar()
         {
-            return this.codigoDeBarras + "-" + this.marca + "-" + this.colorPrimarioEmpaque;
+            return (string)this;
         }
 
-        private static explicit operator string(Producto p)
+        public static explicit operator string(Producto p)
         {
             StringBuilder sb = new StringBuilder();
 
-            sb.AppendLine("CODIGO DE BARRAS: {0}\r\n", p.codigoDeBarras);
-            sb.AppendLine("MARCA          : {0}\r\n", p.marca.ToString());
-            sb.AppendLine("COLOR EMPAQUE  : {0}\r\n", p.colorPrimarioEmpaque.ToString());
+            sb.AppendFormat("CODIGO DE BARRAS: {0}\r\n", p.codigoDeBarras);
+            sb.AppendFormat("MARCA          : {0}\r\n", p.marca.ToString());
+            sb.AppendFormat("COLOR EMPAQUE  : {0}\r\n", p.colorPrimarioEmpaque.ToString());
             sb.AppendLine("---------------------");
 
-            return sb;
+            return sb.ToString();
         }
 
         /// <summary>
@@ -63,15 +63,7 @@ namespace Entidades_2018
         /// <returns></returns>
         public static bool operator ==(Producto v1, Producto v2)
         {
-            if(v1.codigoDeBarras == v2.codigoDeBarras)
-            {
-                return true;
-            }
-
-            else
-            {
-                return false;
-            }
+            return (v1.codigoDeBarras == v2.codigoDeBarras);
         }
         /// <summary>
         /// Dos productos son distintos si su código de barras es distinto
