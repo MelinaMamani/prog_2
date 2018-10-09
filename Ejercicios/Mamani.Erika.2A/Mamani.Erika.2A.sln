@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "Windows
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntidadesTemPal", "EntidadesTemPal\EntidadesTemPal.csproj", "{B7D21E10-C8AD-4BB7-B355-9236154ECAD4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntidadesP", "ClassLibrary2\EntidadesP.csproj", "{D1D9D3B1-2832-420D-9F97-81823AD6B9E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{B7D21E10-C8AD-4BB7-B355-9236154ECAD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7D21E10-C8AD-4BB7-B355-9236154ECAD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7D21E10-C8AD-4BB7-B355-9236154ECAD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1D9D3B1-2832-420D-9F97-81823AD6B9E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1D9D3B1-2832-420D-9F97-81823AD6B9E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1D9D3B1-2832-420D-9F97-81823AD6B9E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1D9D3B1-2832-420D-9F97-81823AD6B9E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
