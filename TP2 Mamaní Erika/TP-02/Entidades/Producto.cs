@@ -15,9 +15,9 @@ namespace Entidades_2018
         {
             Serenisima, Campagnola, Arcor, Ilolay, Sancor, Pepsico
         }
-        EMarca marca;
-        string codigoDeBarras;
-        ConsoleColor colorPrimarioEmpaque;
+        private EMarca marca;
+        private string codigoDeBarras;
+        private ConsoleColor colorPrimarioEmpaque;
 
         /// <summary>
         /// ReadOnly: Retornará la cantidad de ruedas del vehículo
@@ -73,7 +73,7 @@ namespace Entidades_2018
         /// <returns></returns>
         public static bool operator !=(Producto v1, Producto v2)
         {
-            return !(v1.codigoDeBarras == v2.codigoDeBarras);
+            return !(v1 == v2);
         }
     }
 }
