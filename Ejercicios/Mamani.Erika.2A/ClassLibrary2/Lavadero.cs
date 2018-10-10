@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EntidadesP
 {
-  class Lavadero
+  public class Lavadero
   {
     #region Atributos
 
@@ -22,19 +22,17 @@ namespace EntidadesP
 
     public string LavaderoToString
     {
-      get {
-
-        string retorno = "asdfasdfasdf";
+      get
+      {
+        string retorno = "Lavadero:\nRazon Social: " + this._razonSocial;
+        retorno += "Precios\nAuto: "+Lavadero._precioAuto+"\nCamion: "+Lavadero._precioCamion+"\nMoto: "+Lavadero._precioMoto;
 
         foreach (Vehiculo item in this._vehiculos)
         {
-          retorno += item.ToString();
+          retorno += item.ToString()+"\n";
         }
-        retorno += this._vehiculos.ToString();
-
+        
         return retorno;
-
-
       }
     }
 
@@ -141,15 +139,49 @@ namespace EntidadesP
       //return total;
     }
 
+    public static int OrdenarVehiculosPorPatente(Vehiculo v1, Vehiculo v2)
+    {
+        int var = 0;
+
+        if (string.Compare(v1.Patente, v2.Patente) == 1)
+        {
+            var = 1;
+        }
+
+        else if (string.Compare(v1.Patente, v2.Patente) == -1)
+        {
+            var = -1;
+        }
+
+        return var;
+    }
+
+    public int OrdenarVehiculosPorMarca(Vehiculo v1, Vehiculo v2)
+    {
+        int var = 0;
+
+        if (string.Compare(v1.Marca.ToString(), v2.Marca.ToString()) == 1)
+        {
+            var = 1;
+        }
+
+        else if (string.Compare(v1.Marca.ToString(), v2.Marca.ToString()) == -1)
+        {
+            var = -1;
+        }
+
+        return var;
+        }
+    
     #endregion
 
     #region Sobrecarga de Op.
 
-    public static bool operator ==(Lavadero l, Vehiculo v)
+        public static bool operator ==(Lavadero l, Vehiculo v)
     {
       bool var = false;
 
-      if ((v == l) >= 0)
+      if ((v == l) > -1)
       {
         var = true;
       }
@@ -183,9 +215,22 @@ namespace EntidadesP
       return 0;
     }
 
-    public static Vehiculo operator +()
+    public static Lavadero operator +(Lavadero l, Vehiculo v)
     {
+      if(l != v)
+      {
+        l._vehiculos.Add(v);
+      }
+      return l;
+    }
 
+    public static Lavadero operator -(Lavadero l, Vehiculo v)
+    {
+        if (l == v)
+        {
+            l._vehiculos.Remove(v);
+        }
+        return l;
     }
 
     #endregion

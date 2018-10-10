@@ -39,12 +39,12 @@ namespace EntidadesP
 
     #endregion
 
-    public virtual string Mostrar()
+    protected virtual string Mostrar()
     {
       StringBuilder sb = new StringBuilder();
-      sb.AppendFormat("Patente: {0}",this._patente);
-      sb.AppendFormat("Ruedas: {0}",this._ruedas.ToString());
-      sb.AppendFormat("Marca: {0}",this._marca);
+      sb.AppendFormat("Patente: {0}",this._patente,"\n");
+      sb.AppendFormat("Ruedas: {0}",this._ruedas.ToString(),"\n");
+      sb.AppendFormat("Marca: {0}",this._marca,"\n");
 
       return sb.ToString();
     }

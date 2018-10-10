@@ -1,0 +1,10 @@
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\VehiculoProgram\bin\Debug\VehiculoProgram.exe.config
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\VehiculoProgram\bin\Debug\VehiculoProgram.exe
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\VehiculoProgram\bin\Debug\VehiculoProgram.pdb
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\VehiculoProgram\bin\Debug\EntidadesP.dll
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\VehiculoProgram\bin\Debug\EntidadesP.pdb
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\VehiculoProgram\obj\Debug\VehiculoProgram.csprojAssemblyReference.cache
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\VehiculoProgram\obj\Debug\VehiculoProgram.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\VehiculoProgram\obj\Debug\VehiculoProgram.csproj.CopyComplete
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\VehiculoProgram\obj\Debug\VehiculoProgram.exe
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\VehiculoProgram\obj\Debug\VehiculoProgram.pdb

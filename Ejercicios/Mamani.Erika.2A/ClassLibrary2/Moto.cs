@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EntidadesP
 {
-  class Moto : Vehiculo
+  public class Moto : Vehiculo
   {
     protected float _cilindrada;
 
@@ -20,20 +20,20 @@ namespace EntidadesP
 
     }
 
-    public override string Mostrar()
+    protected override string Mostrar()
     {
       StringBuilder sb = new StringBuilder();
 
-      sb.AppendLine(base.ToString());
-      sb.AppendLine("");
+      sb.AppendLine(base.Mostrar());
       sb.AppendFormat("Cilindrada: {0}", this._cilindrada);
-
+      sb.AppendLine("");
+      
       return sb.ToString();
     }
 
     public override string ToString()
     {
-      return this.ToString();
+      return this.Mostrar();
     }
   }
 }

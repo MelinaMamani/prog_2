@@ -1,0 +1,6 @@
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\ClassLibrary2\bin\Debug\EntidadesP.dll
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\ClassLibrary2\bin\Debug\EntidadesP.pdb
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\ClassLibrary2\obj\Debug\EntidadesP.csprojAssemblyReference.cache
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\ClassLibrary2\obj\Debug\EntidadesP.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\ClassLibrary2\obj\Debug\EntidadesP.dll
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\ClassLibrary2\obj\Debug\EntidadesP.pdb

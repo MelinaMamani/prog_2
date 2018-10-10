@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EntidadesP
 {
-  class Camion : Vehiculo
+  public class Camion : Vehiculo
   {
     protected float _tara;
 
@@ -20,20 +20,20 @@ namespace EntidadesP
 
     }
 
-    public override string Mostrar()
+    protected override string Mostrar()
     {
       StringBuilder sb = new StringBuilder();
 
-      sb.AppendLine(base.ToString());
-      sb.AppendLine("");
+      sb.AppendLine(base.Mostrar());
       sb.AppendFormat("Tara: {0}", this._tara);
-
+      sb.AppendLine("");
+      
       return sb.ToString();
     }
 
     public override string ToString()
     {
-      return this.ToString();
+      return this.Mostrar();
     }
   }
 }

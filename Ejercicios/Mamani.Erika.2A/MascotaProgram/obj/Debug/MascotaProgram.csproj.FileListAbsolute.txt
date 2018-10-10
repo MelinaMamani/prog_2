@@ -1,0 +1,10 @@
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\MascotaProgram\bin\Debug\MascotaProgram.exe.config
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\MascotaProgram\bin\Debug\MascotaProgram.exe
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\MascotaProgram\bin\Debug\MascotaProgram.pdb
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\MascotaProgram\bin\Debug\EntidadesM.dll
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\MascotaProgram\bin\Debug\EntidadesM.pdb
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\MascotaProgram\obj\Debug\MascotaProgram.csprojAssemblyReference.cache
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\MascotaProgram\obj\Debug\MascotaProgram.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\MascotaProgram\obj\Debug\MascotaProgram.csproj.CopyComplete
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\MascotaProgram\obj\Debug\MascotaProgram.exe
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\MascotaProgram\obj\Debug\MascotaProgram.pdb

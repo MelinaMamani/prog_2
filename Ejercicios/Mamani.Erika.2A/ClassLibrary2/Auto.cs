@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EntidadesP
 {
-  class Auto : Vehiculo
+  public class Auto : Vehiculo
   {
     protected int _cantDeAsientos;
 
@@ -20,20 +20,20 @@ namespace EntidadesP
 
     }
 
-    public override string Mostrar()
+    protected override string Mostrar()
     {
       StringBuilder sb = new StringBuilder();
 
-      sb.AppendLine(base.ToString());
-      sb.AppendLine("");
+      sb.AppendLine(base.Mostrar());
       sb.AppendFormat("Cant. asientos: {0}", this._cantDeAsientos);
-
+      sb.AppendLine("");
+      
       return sb.ToString();
     }
 
     public override string ToString()
     {
-      return this.ToString();
+      return this.Mostrar();
     }
   }
 }
