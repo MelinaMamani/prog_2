@@ -11,29 +11,56 @@ namespace Entidades
         private int _capacidad;
         private List<Libro> _libros;
 
-        public double PrecioDeManuales { get;}
-
-        public double PrecioDeNovelas { get; }
-
-        public double PrecioTotal { get; }
-
-        private Biblioteca(int capacidad)
+        public double PrecioDeManuales
         {
-            this._libros = new List<Libro>(capacidad);
-        }
-
-        private Biblioteca() : this(5)
-        {
-
-        }
-
-        public string Mostrar(Biblioteca e)
-        {
-            string retorno = "Capacidad de biblioteca: "+this._capacidad+"\n";
-
-            for (int i = 0; i < e._libros.Count; i++)
+            get
             {
-                retorno += (string)e._libros[i];
+                return this.ObtenerPrecio(ELibro.Manual);
+            }
+        }
+
+        public double PrecioDeNovelas
+        {
+            get
+            {
+                return this.ObtenerPrecio(ELibro.Novela);
+            }
+        }
+
+        public double PrecioTotal
+        {
+            get
+            {
+                return this.ObtenerPrecio(ELibro.Ambos);
+            }
+        }
+
+        private Biblioteca(int capacidad) : this()
+        {
+            this._capacidad = capacidad;
+        }
+
+        private Biblioteca()
+        {
+            this._libros = new List<Libro>();
+        }
+
+
+        public static string Mostrar(Biblioteca e)
+        {
+            string retorno = "Capacidad de biblioteca: "+e._capacidad+"\n";
+
+            foreach (Libro item in e._libros)
+            {
+                if( item is Manual)
+                {
+                    retorno += ((Manual)item).Mostrar();
+                }
+
+                if (item is Novela)
+                {
+                    retorno += ((Novela)item).Mostrar();
+                }
             }
 
             return retorno;
@@ -82,7 +109,38 @@ namespace Entidades
         private double ObtenerPrecio(ELibro tipoLibro)
         {
             double total = 0;
-            
+
+            foreach (Libro item in this._libros)
+            {
+                switch (tipoLibro)
+                {
+                    case ELibro.Manual:
+                        if (item is Manual)
+                        {
+                            total += (Manual)item;
+                        }
+                        break;
+                    case ELibro.Novela:
+                        if (item is Novela)
+                        {
+                            total += (Novela)item;
+                        }
+                        break;
+                    case ELibro.Ambos:
+                        if( item is Novela)
+                        {
+                            total += (Novela)item;
+                        }
+                        else if( item is Manual)
+                        {
+                            total += (Manual)item;
+                        }
+                        
+                        break;
+
+                }
+            }
+
             return total;
         }
     }

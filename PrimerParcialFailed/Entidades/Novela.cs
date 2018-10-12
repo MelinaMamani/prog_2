@@ -11,13 +11,19 @@ namespace Entidades
         public EGenero genero;
 
         public Novela(string titulo, float precio, Autor autor, EGenero genero)
+            : base (titulo, autor, precio)
         {
             this.genero = genero;
         }
 
         public string Mostrar()
         {
-            return " " + this.genero;
+            StringBuilder sb = new StringBuilder();
+
+            sb.AppendFormat((string)this, "\n");
+            sb.AppendFormat("Genero: {0}", this.genero, "\n");
+
+            return sb.ToString();
         }
 
         public static implicit operator double(Novela n)
@@ -27,14 +33,7 @@ namespace Entidades
 
         public static bool operator ==(Novela a, Novela b)
         {
-            bool var = false;
-
-            if ((a == b) && a.genero == b.genero)
-            {
-                var = true;
-            }
-
-            return var;
+            return (a == b && a.genero == b.genero);
         }
 
         public static bool operator !=(Novela a, Novela b)

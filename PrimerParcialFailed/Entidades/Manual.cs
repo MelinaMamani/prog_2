@@ -11,13 +11,19 @@ namespace Entidades
         public ETipo tipo;
 
         public Manual(string titulo, float precio, string nombre, string apellido, ETipo tipo)
+            : base (precio, titulo, nombre, apellido)
         {
             this.tipo = tipo;
         }
 
         public string Mostrar()
         {
-            return " "+this.tipo;
+            StringBuilder sb = new StringBuilder();
+
+            sb.AppendFormat((string)this, "\n");
+            sb.AppendFormat("Tipo: {0}", this.tipo, "\n");
+
+            return sb.ToString();
         }
 
         public static implicit operator double(Manual m)
@@ -27,14 +33,7 @@ namespace Entidades
 
         public static bool operator ==(Manual a, Manual b)
         {
-            bool var = false;
-
-            if ((a.tipo == b.tipo) && (a == b))
-            {
-                var = true;
-            }
-
-            return var;
+            return (a == b && a.tipo == b.tipo);
         }
 
         public static bool operator !=(Manual a, Manual b)

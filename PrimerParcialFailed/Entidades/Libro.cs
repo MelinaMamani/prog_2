@@ -10,39 +10,43 @@ namespace Entidades
     {
         protected Autor _autor;
         protected int _cantDePaginas;
-        protected Random _generadorDePaginas;
+        protected static Random _generadorDePaginas;
         protected float _precio;
         protected string _titulo;
 
-        public int CantidadDePaginas {
+        public int CantidadDePaginas
+        {
             get
             {
-                if(_cantDePaginas == 0)
+                if(this._cantDePaginas == 0)
                 {
-                    _cantDePaginas = _generadorDePaginas.Next(10,580);
+                    this._cantDePaginas = Libro._generadorDePaginas.Next(10, 581);
                 }
-                return _cantDePaginas;
+                return this._cantDePaginas;
             }
         }
 
-        public Libro(float precio, string titulo, string nombre, string apellido)
+        public Libro(float precio, string titulo, string nombre, string apellido) : this(titulo , 
+            new Autor(nombre,apellido) , precio )
         {
-
         }
 
-        public Libro(string titulo, Autor autor, float precio)
+        public Libro(string titulo, Autor autor, float precio) 
         {
-
+            this._autor = autor;
+            this._titulo = titulo;
+            this._precio = precio;
+            this._cantDePaginas = this.CantidadDePaginas;
         }
 
-        public Libro()
+        static Libro()
         {
-
+            Libro._generadorDePaginas = new Random();
         }
 
         public static explicit operator string(Libro l)
         {
-            return Mostrar(l);
+            return Libro.Mostrar(l);
         }
 
         private static string Mostrar(Libro l)
@@ -59,14 +63,7 @@ namespace Entidades
 
         public static bool operator ==(Libro a, Libro b)
         {
-            bool var = false;
-
-            if (a._titulo == b._titulo)
-            {
-                var = true;
-            }
-
-            return var;
+            return (a._titulo == b._titulo && b._autor == a._autor);
         }
 
         public static bool operator !=(Libro a, Libro b)
