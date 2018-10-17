@@ -1,0 +1,5 @@
+D:\VisualStudio\Excepciones.Clase15\Excepciones\bin\Debug\Excepciones.dll
+D:\VisualStudio\Excepciones.Clase15\Excepciones\bin\Debug\Excepciones.pdb
+D:\VisualStudio\Excepciones.Clase15\Excepciones\obj\Debug\Excepciones.csproj.CoreCompileInputs.cache
+D:\VisualStudio\Excepciones.Clase15\Excepciones\obj\Debug\Excepciones.dll
+D:\VisualStudio\Excepciones.Clase15\Excepciones\obj\Debug\Excepciones.pdb
