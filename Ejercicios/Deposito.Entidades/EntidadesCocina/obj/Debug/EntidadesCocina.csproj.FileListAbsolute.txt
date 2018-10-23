@@ -1,0 +1,5 @@
+D:\VisualStudio\Deposito.Entidades\EntidadesCocina\bin\Debug\EntidadesCocina.dll
+D:\VisualStudio\Deposito.Entidades\EntidadesCocina\bin\Debug\EntidadesCocina.pdb
+D:\VisualStudio\Deposito.Entidades\EntidadesCocina\obj\Debug\EntidadesCocina.csproj.CoreCompileInputs.cache
+D:\VisualStudio\Deposito.Entidades\EntidadesCocina\obj\Debug\EntidadesCocina.dll
+D:\VisualStudio\Deposito.Entidades\EntidadesCocina\obj\Debug\EntidadesCocina.pdb

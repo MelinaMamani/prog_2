@@ -1,0 +1,10 @@
+D:\VisualStudio\DepositoAuto.Entidades\ConsolaAuto\bin\Debug\ConsolaAuto.exe.config
+D:\VisualStudio\DepositoAuto.Entidades\ConsolaAuto\bin\Debug\ConsolaAuto.exe
+D:\VisualStudio\DepositoAuto.Entidades\ConsolaAuto\bin\Debug\ConsolaAuto.pdb
+D:\VisualStudio\DepositoAuto.Entidades\ConsolaAuto\bin\Debug\Entidades.dll
+D:\VisualStudio\DepositoAuto.Entidades\ConsolaAuto\bin\Debug\Entidades.pdb
+D:\VisualStudio\DepositoAuto.Entidades\ConsolaAuto\obj\Debug\ConsolaAuto.csprojAssemblyReference.cache
+D:\VisualStudio\DepositoAuto.Entidades\ConsolaAuto\obj\Debug\ConsolaAuto.csproj.CoreCompileInputs.cache
+D:\VisualStudio\DepositoAuto.Entidades\ConsolaAuto\obj\Debug\ConsolaAuto.csproj.CopyComplete
+D:\VisualStudio\DepositoAuto.Entidades\ConsolaAuto\obj\Debug\ConsolaAuto.exe
+D:\VisualStudio\DepositoAuto.Entidades\ConsolaAuto\obj\Debug\ConsolaAuto.pdb

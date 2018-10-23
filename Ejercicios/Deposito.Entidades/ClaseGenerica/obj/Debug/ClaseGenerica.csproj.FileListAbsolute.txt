@@ -1,0 +1,6 @@
+D:\VisualStudio\Deposito.Entidades\ClaseGenerica\bin\Debug\ClaseGenerica.dll
+D:\VisualStudio\Deposito.Entidades\ClaseGenerica\bin\Debug\ClaseGenerica.pdb
+D:\VisualStudio\Deposito.Entidades\ClaseGenerica\obj\Debug\ClaseGenerica.csprojAssemblyReference.cache
+D:\VisualStudio\Deposito.Entidades\ClaseGenerica\obj\Debug\ClaseGenerica.csproj.CoreCompileInputs.cache
+D:\VisualStudio\Deposito.Entidades\ClaseGenerica\obj\Debug\ClaseGenerica.dll
+D:\VisualStudio\Deposito.Entidades\ClaseGenerica\obj\Debug\ClaseGenerica.pdb

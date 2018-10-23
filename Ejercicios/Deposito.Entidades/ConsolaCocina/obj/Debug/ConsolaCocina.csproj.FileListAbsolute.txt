@@ -1,0 +1,10 @@
+D:\VisualStudio\Deposito.Entidades\ConsolaCocina\bin\Debug\ConsolaCocina.exe.config
+D:\VisualStudio\Deposito.Entidades\ConsolaCocina\bin\Debug\ConsolaCocina.exe
+D:\VisualStudio\Deposito.Entidades\ConsolaCocina\bin\Debug\ConsolaCocina.pdb
+D:\VisualStudio\Deposito.Entidades\ConsolaCocina\bin\Debug\EntidadesCocina.dll
+D:\VisualStudio\Deposito.Entidades\ConsolaCocina\bin\Debug\EntidadesCocina.pdb
+D:\VisualStudio\Deposito.Entidades\ConsolaCocina\obj\Debug\ConsolaCocina.csprojAssemblyReference.cache
+D:\VisualStudio\Deposito.Entidades\ConsolaCocina\obj\Debug\ConsolaCocina.csproj.CoreCompileInputs.cache
+D:\VisualStudio\Deposito.Entidades\ConsolaCocina\obj\Debug\ConsolaCocina.csproj.CopyComplete
+D:\VisualStudio\Deposito.Entidades\ConsolaCocina\obj\Debug\ConsolaCocina.exe
+D:\VisualStudio\Deposito.Entidades\ConsolaCocina\obj\Debug\ConsolaCocina.pdb

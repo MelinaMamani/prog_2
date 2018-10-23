@@ -1,0 +1,9 @@
+Capacidad: 5
+Codigo: 111
+Precio: 12300
+Es industrial? False
+
+Codigo: 113
+Precio: 5600
+Es industrial? False
+
