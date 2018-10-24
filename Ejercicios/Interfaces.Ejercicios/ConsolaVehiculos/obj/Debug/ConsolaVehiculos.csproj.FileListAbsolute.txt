@@ -1,0 +1,10 @@
+D:\VisualStudio\Interfaces.Ejercicios\ConsolaVehiculos\bin\Debug\ConsolaVehiculos.exe.config
+D:\VisualStudio\Interfaces.Ejercicios\ConsolaVehiculos\bin\Debug\ConsolaVehiculos.exe
+D:\VisualStudio\Interfaces.Ejercicios\ConsolaVehiculos\bin\Debug\ConsolaVehiculos.pdb
+D:\VisualStudio\Interfaces.Ejercicios\ConsolaVehiculos\bin\Debug\EntidadesAFIP.dll
+D:\VisualStudio\Interfaces.Ejercicios\ConsolaVehiculos\bin\Debug\EntidadesAFIP.pdb
+D:\VisualStudio\Interfaces.Ejercicios\ConsolaVehiculos\obj\Debug\ConsolaVehiculos.csprojAssemblyReference.cache
+D:\VisualStudio\Interfaces.Ejercicios\ConsolaVehiculos\obj\Debug\ConsolaVehiculos.csproj.CoreCompileInputs.cache
+D:\VisualStudio\Interfaces.Ejercicios\ConsolaVehiculos\obj\Debug\ConsolaVehiculos.csproj.CopyComplete
+D:\VisualStudio\Interfaces.Ejercicios\ConsolaVehiculos\obj\Debug\ConsolaVehiculos.exe
+D:\VisualStudio\Interfaces.Ejercicios\ConsolaVehiculos\obj\Debug\ConsolaVehiculos.pdb

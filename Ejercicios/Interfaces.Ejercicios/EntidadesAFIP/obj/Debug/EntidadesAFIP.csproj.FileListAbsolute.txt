@@ -1,0 +1,6 @@
+D:\VisualStudio\Interfaces.Ejercicios\EntidadesAFIP\bin\Debug\EntidadesAFIP.dll
+D:\VisualStudio\Interfaces.Ejercicios\EntidadesAFIP\bin\Debug\EntidadesAFIP.pdb
+D:\VisualStudio\Interfaces.Ejercicios\EntidadesAFIP\obj\Debug\EntidadesAFIP.csproj.CoreCompileInputs.cache
+D:\VisualStudio\Interfaces.Ejercicios\EntidadesAFIP\obj\Debug\EntidadesAFIP.dll
+D:\VisualStudio\Interfaces.Ejercicios\EntidadesAFIP\obj\Debug\EntidadesAFIP.pdb
+D:\VisualStudio\Interfaces.Ejercicios\EntidadesAFIP\obj\Debug\EntidadesAFIP.csprojAssemblyReference.cache

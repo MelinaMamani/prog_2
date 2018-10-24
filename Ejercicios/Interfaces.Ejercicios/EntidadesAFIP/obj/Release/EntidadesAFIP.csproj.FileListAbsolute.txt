@@ -1,0 +1,5 @@
+D:\VisualStudio\Interfaces.Ejercicios\EntidadesAFIP\bin\Release\EntidadesAFIP.dll
+D:\VisualStudio\Interfaces.Ejercicios\EntidadesAFIP\bin\Release\EntidadesAFIP.pdb
+D:\VisualStudio\Interfaces.Ejercicios\EntidadesAFIP\obj\Release\EntidadesAFIP.csproj.CoreCompileInputs.cache
+D:\VisualStudio\Interfaces.Ejercicios\EntidadesAFIP\obj\Release\EntidadesAFIP.dll
+D:\VisualStudio\Interfaces.Ejercicios\EntidadesAFIP\obj\Release\EntidadesAFIP.pdb
