@@ -11,7 +11,7 @@ namespace Excepciones
         public UnaExcepcion(string mensaje, Exception innerException) 
         : base (mensaje, innerException)
         {
-            throw new Exception(mensaje, i
+            throw new Exception(mensaje, innerException);
         }
     }
 }

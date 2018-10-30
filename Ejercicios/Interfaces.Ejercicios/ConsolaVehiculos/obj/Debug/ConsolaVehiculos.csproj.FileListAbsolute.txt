@@ -8,3 +8,13 @@ D:\VisualStudio\Interfaces.Ejercicios\ConsolaVehiculos\obj\Debug\ConsolaVehiculo
 D:\VisualStudio\Interfaces.Ejercicios\ConsolaVehiculos\obj\Debug\ConsolaVehiculos.csproj.CopyComplete
 D:\VisualStudio\Interfaces.Ejercicios\ConsolaVehiculos\obj\Debug\ConsolaVehiculos.exe
 D:\VisualStudio\Interfaces.Ejercicios\ConsolaVehiculos\obj\Debug\ConsolaVehiculos.pdb
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Interfaces.Ejercicios\ConsolaVehiculos\bin\Debug\ConsolaVehiculos.exe.config
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Interfaces.Ejercicios\ConsolaVehiculos\bin\Debug\ConsolaVehiculos.exe
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Interfaces.Ejercicios\ConsolaVehiculos\bin\Debug\ConsolaVehiculos.pdb
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Interfaces.Ejercicios\ConsolaVehiculos\bin\Debug\EntidadesAFIP.dll
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Interfaces.Ejercicios\ConsolaVehiculos\bin\Debug\EntidadesAFIP.pdb
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Interfaces.Ejercicios\ConsolaVehiculos\obj\Debug\ConsolaVehiculos.csprojAssemblyReference.cache
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Interfaces.Ejercicios\ConsolaVehiculos\obj\Debug\ConsolaVehiculos.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Interfaces.Ejercicios\ConsolaVehiculos\obj\Debug\ConsolaVehiculos.csproj.CopyComplete
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Interfaces.Ejercicios\ConsolaVehiculos\obj\Debug\ConsolaVehiculos.exe
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Interfaces.Ejercicios\ConsolaVehiculos\obj\Debug\ConsolaVehiculos.pdb

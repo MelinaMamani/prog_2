@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Excepciones
 {
-    class Clase2
+    public class Clase2
     {
         public Clase2()
         {

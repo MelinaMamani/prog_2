@@ -4,3 +4,9 @@ D:\VisualStudio\Interfaces.Ejercicios\EntidadesAFIP\obj\Debug\EntidadesAFIP.cspr
 D:\VisualStudio\Interfaces.Ejercicios\EntidadesAFIP\obj\Debug\EntidadesAFIP.dll
 D:\VisualStudio\Interfaces.Ejercicios\EntidadesAFIP\obj\Debug\EntidadesAFIP.pdb
 D:\VisualStudio\Interfaces.Ejercicios\EntidadesAFIP\obj\Debug\EntidadesAFIP.csprojAssemblyReference.cache
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Interfaces.Ejercicios\EntidadesAFIP\bin\Debug\EntidadesAFIP.dll
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Interfaces.Ejercicios\EntidadesAFIP\bin\Debug\EntidadesAFIP.pdb
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Interfaces.Ejercicios\EntidadesAFIP\obj\Debug\EntidadesAFIP.csprojAssemblyReference.cache
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Interfaces.Ejercicios\EntidadesAFIP\obj\Debug\EntidadesAFIP.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Interfaces.Ejercicios\EntidadesAFIP\obj\Debug\EntidadesAFIP.dll
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Interfaces.Ejercicios\EntidadesAFIP\obj\Debug\EntidadesAFIP.pdb
