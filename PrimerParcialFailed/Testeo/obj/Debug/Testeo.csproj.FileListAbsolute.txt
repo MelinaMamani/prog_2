@@ -1,0 +1,10 @@
+C:\Users\Usuario\Desktop\Programacion 2\PrimerParcialFailed\Testeo\bin\Debug\Testeo.exe.config
+C:\Users\Usuario\Desktop\Programacion 2\PrimerParcialFailed\Testeo\bin\Debug\Testeo.exe
+C:\Users\Usuario\Desktop\Programacion 2\PrimerParcialFailed\Testeo\bin\Debug\Testeo.pdb
+C:\Users\Usuario\Desktop\Programacion 2\PrimerParcialFailed\Testeo\bin\Debug\Entidades.dll
+C:\Users\Usuario\Desktop\Programacion 2\PrimerParcialFailed\Testeo\bin\Debug\Entidades.pdb
+C:\Users\Usuario\Desktop\Programacion 2\PrimerParcialFailed\Testeo\obj\Debug\Testeo.csprojAssemblyReference.cache
+C:\Users\Usuario\Desktop\Programacion 2\PrimerParcialFailed\Testeo\obj\Debug\Testeo.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Programacion 2\PrimerParcialFailed\Testeo\obj\Debug\Testeo.csproj.CopyComplete
+C:\Users\Usuario\Desktop\Programacion 2\PrimerParcialFailed\Testeo\obj\Debug\Testeo.exe
+C:\Users\Usuario\Desktop\Programacion 2\PrimerParcialFailed\Testeo\obj\Debug\Testeo.pdb

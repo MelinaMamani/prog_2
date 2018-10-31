@@ -19,12 +19,13 @@ namespace Entidades
 
         public static bool operator ==(Autor a, Autor b)
         {
-            bool var = false;
-            if ((a.apellido == b.apellido) && (a.nombre == b.nombre))
-            {
-                var = true;
-            }
-            return var;
+            //bool var = false;
+            //if ((a.apellido == b.apellido) && (a.nombre == b.nombre))
+            //{
+            //    var = true;
+            //}
+            //return var;
+            return (a.apellido == b.apellido) && (a.nombre == b.nombre);
         }
 
         public static bool operator !=(Autor a, Autor b)

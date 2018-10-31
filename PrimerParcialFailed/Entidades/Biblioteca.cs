@@ -49,17 +49,20 @@ namespace Entidades
         public static string Mostrar(Biblioteca e)
         {
             string retorno = "Capacidad de biblioteca: "+e._capacidad+"\n";
+            retorno += "Total de manuales: $" + (float)e.PrecioDeManuales + "\n";
+            retorno += "Total de novelas: $" + (float)e.PrecioDeNovelas + "\n";
+            retorno += "Total: $" + (float)e.PrecioTotal + "\n";
 
             foreach (Libro item in e._libros)
             {
                 if( item is Manual)
                 {
-                    retorno += ((Manual)item).Mostrar();
+                    retorno += ((Manual)item).Mostrar()+"\n";
                 }
 
                 if (item is Novela)
                 {
-                    retorno += ((Novela)item).Mostrar();
+                    retorno += ((Novela)item).Mostrar()+"\n";
                 }
             }
 
@@ -78,10 +81,21 @@ namespace Entidades
 
             for (int i = 0; i < e._libros.Count; i++)
             {
-                if(e._libros[i] == l)
+                if(e._libros[i] is Manual && l is Manual)
                 {
-                    var = true;
-                    break;
+                    if ((Manual)e._libros[i] == (Manual)l)
+                    {
+                        var = true;
+                        break;
+                    }
+                }
+                else if (e._libros[i] is Novela && l is Novela)
+                {
+                    if ((Novela)e._libros[i] == (Novela)l)
+                    {
+                        var = true;
+                        break;
+                    }
                 }
             }
 
@@ -101,6 +115,14 @@ namespace Entidades
                 {
                     e._libros.Add(l);
                 }
+                else
+                {
+                    Console.WriteLine("Ya hay uno igual!!");
+                }
+            }
+            else
+            {
+                Console.WriteLine("No hay más lugar !!");
             }
 
             return e;

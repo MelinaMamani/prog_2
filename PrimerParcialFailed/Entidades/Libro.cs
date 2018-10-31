@@ -53,10 +53,15 @@ namespace Entidades
         {
             StringBuilder sb = new StringBuilder();
 
-            sb.AppendFormat("Titulo: {0}",l._titulo,"\n");
-            sb.AppendFormat("Cant. de paginas: {0}", l._cantDePaginas, "\n");
-            sb.AppendFormat("Autor: {0}", (string)l._autor, "\n");
-            sb.AppendFormat("Precio: {0}", l._precio, "\n");
+            sb.AppendLine("");
+            sb.AppendFormat("Titulo: {0}",l._titulo);
+            sb.AppendLine("");
+            sb.AppendFormat("Cant. de paginas: {0}", l._cantDePaginas);
+            sb.AppendLine("");
+            sb.AppendFormat("Autor: {0}", (string)l._autor);
+            sb.AppendLine("");
+            sb.AppendFormat("Precio: {0}", l._precio);
+            sb.AppendLine("");
 
             return sb.ToString();
         }

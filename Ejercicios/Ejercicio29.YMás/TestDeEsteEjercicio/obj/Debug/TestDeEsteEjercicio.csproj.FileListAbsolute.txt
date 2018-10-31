@@ -1,0 +1,10 @@
+C:\Users\Usuario\source\repos\Ejercicio29.YMás\TestDeEsteEjercicio\bin\Debug\TestDeEsteEjercicio.exe.config
+C:\Users\Usuario\source\repos\Ejercicio29.YMás\TestDeEsteEjercicio\bin\Debug\TestDeEsteEjercicio.exe
+C:\Users\Usuario\source\repos\Ejercicio29.YMás\TestDeEsteEjercicio\bin\Debug\TestDeEsteEjercicio.pdb
+C:\Users\Usuario\source\repos\Ejercicio29.YMás\TestDeEsteEjercicio\bin\Debug\Entidades.dll
+C:\Users\Usuario\source\repos\Ejercicio29.YMás\TestDeEsteEjercicio\bin\Debug\Entidades.pdb
+C:\Users\Usuario\source\repos\Ejercicio29.YMás\TestDeEsteEjercicio\obj\Debug\TestDeEsteEjercicio.csprojAssemblyReference.cache
+C:\Users\Usuario\source\repos\Ejercicio29.YMás\TestDeEsteEjercicio\obj\Debug\TestDeEsteEjercicio.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\Ejercicio29.YMás\TestDeEsteEjercicio\obj\Debug\TestDeEsteEjercicio.csproj.CopyComplete
+C:\Users\Usuario\source\repos\Ejercicio29.YMás\TestDeEsteEjercicio\obj\Debug\TestDeEsteEjercicio.exe
+C:\Users\Usuario\source\repos\Ejercicio29.YMás\TestDeEsteEjercicio\obj\Debug\TestDeEsteEjercicio.pdb

@@ -20,8 +20,8 @@ namespace Entidades
         {
             StringBuilder sb = new StringBuilder();
 
-            sb.AppendFormat((string)this, "\n");
-            sb.AppendFormat("Tipo: {0}", this.tipo, "\n");
+            sb.AppendFormat((string)this);
+            sb.AppendFormat("Tipo: {0}", this.tipo);
 
             return sb.ToString();
         }
@@ -33,7 +33,7 @@ namespace Entidades
 
         public static bool operator ==(Manual a, Manual b)
         {
-            return (a == b && a.tipo == b.tipo);
+            return ((Libro)a == (Libro)b && a.tipo == b.tipo);
         }
 
         public static bool operator !=(Manual a, Manual b)

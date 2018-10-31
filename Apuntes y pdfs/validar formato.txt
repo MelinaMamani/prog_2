@@ -1,0 +1,8 @@
+doc.Length == 9 && Regex.IsMatch(doc, "[0-9]{2}-[0-9]{4}-[0-9]{1}") );
+
+doc.Length == 9 && Regex.IsMatch(doc, "[0-9]{4}-[0-9]{4}") );
+3-456
+using System.Text.RegularExpressions;
+
+[a-zA-Z]{2}
+https://www.regexpal.com/
