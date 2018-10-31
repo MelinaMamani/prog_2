@@ -1,0 +1,5 @@
+C:\Users\alumno\Desktop\RPP_2018\obj\x86\Debug\RPP.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\RPP_2018\obj\x86\Debug\PP.frmPP.resources
+C:\Users\alumno\Desktop\RPP_2018\obj\x86\Debug\PP.Properties.Resources.resources
+C:\Users\alumno\Desktop\RPP_2018\obj\x86\Debug\RPP.csproj.GenerateResource.cache
+C:\Users\alumno\Desktop\RPP_2018\obj\x86\Debug\RPP.csproj.CoreCompileInputs.cache
