@@ -1,0 +1,7 @@
+D:\VisualStudio\BasesDeDatos\BDConsola\obj\Debug\BDConsola.csproj.CoreCompileInputs.cache
+D:\VisualStudio\BasesDeDatos\BDConsola\bin\Debug\BDConsola.exe.config
+D:\VisualStudio\BasesDeDatos\BDConsola\bin\Debug\BDConsola.exe
+D:\VisualStudio\BasesDeDatos\BDConsola\bin\Debug\BDConsola.pdb
+D:\VisualStudio\BasesDeDatos\BDConsola\obj\Debug\BDConsola.csprojAssemblyReference.cache
+D:\VisualStudio\BasesDeDatos\BDConsola\obj\Debug\BDConsola.exe
+D:\VisualStudio\BasesDeDatos\BDConsola\obj\Debug\BDConsola.pdb
