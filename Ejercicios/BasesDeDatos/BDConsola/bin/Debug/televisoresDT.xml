@@ -14,4 +14,11 @@
     <pulgadas>49</pulgadas>
     <pais>China</pais>
   </Televisores>
+  <Televisores>
+    <codigo>125</codigo>
+    <marca>Samsung</marca>
+    <precio>16999</precio>
+    <pulgadas>50</pulgadas>
+    <pais>Argentina</pais>
+  </Televisores>
 </DocumentElement>

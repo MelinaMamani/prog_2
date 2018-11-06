@@ -5,3 +5,10 @@ D:\VisualStudio\BasesDeDatos\BDConsola\bin\Debug\BDConsola.pdb
 D:\VisualStudio\BasesDeDatos\BDConsola\obj\Debug\BDConsola.csprojAssemblyReference.cache
 D:\VisualStudio\BasesDeDatos\BDConsola\obj\Debug\BDConsola.exe
 D:\VisualStudio\BasesDeDatos\BDConsola\obj\Debug\BDConsola.pdb
+C:\Users\alumno\Desktop\m\prog_2\Ejercicios\BasesDeDatos\BDConsola\bin\Debug\BDConsola.exe.config
+C:\Users\alumno\Desktop\m\prog_2\Ejercicios\BasesDeDatos\BDConsola\bin\Debug\BDConsola.exe
+C:\Users\alumno\Desktop\m\prog_2\Ejercicios\BasesDeDatos\BDConsola\bin\Debug\BDConsola.pdb
+C:\Users\alumno\Desktop\m\prog_2\Ejercicios\BasesDeDatos\BDConsola\obj\Debug\BDConsola.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\m\prog_2\Ejercicios\BasesDeDatos\BDConsola\obj\Debug\BDConsola.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\m\prog_2\Ejercicios\BasesDeDatos\BDConsola\obj\Debug\BDConsola.exe
+C:\Users\alumno\Desktop\m\prog_2\Ejercicios\BasesDeDatos\BDConsola\obj\Debug\BDConsola.pdb

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -73,7 +73,7 @@ namespace BDConsola
             dataTable2.ReadXml("televisoresDT.xml");
 
             //Inserto algo
-            Televisor tele = new Televisor(125,"Samsung",16999,50,"Argentina");
+            Televisor tele = new Televisor(126,"Samsung",16999,50,"Corea del Sur");
             if (tele.Insertar())
             {
                 Console.WriteLine("Se insertó.");
