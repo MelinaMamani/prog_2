@@ -47,7 +47,6 @@ namespace EntidadesP
 
     public Lavadero( string rSocial):this()
     {
-      
       this._razonSocial = rSocial;
     }
 
