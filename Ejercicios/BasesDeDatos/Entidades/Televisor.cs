@@ -9,7 +9,7 @@ using System.Data;
 namespace Entidades
 {
   public delegate void MiDelegado();
-  public delegate void DelegadoTV(Televisor televisor);
+  public delegate void DelegadoTV(Televisor televisor, TVEventsArgs tVEventsArgs);
 
   public class Televisor
     {
@@ -55,7 +55,8 @@ namespace Entidades
                 comando.ExecuteNonQuery();
                 conexion.Close();
                 this.miEvento();
-                this.delegadoTV(this);
+                
+                this.delegadoTV(this,new TVEventsArgs());
                 return true;
             }
             catch (Exception)

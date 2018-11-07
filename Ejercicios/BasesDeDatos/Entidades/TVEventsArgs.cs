@@ -8,9 +8,12 @@ namespace Entidades
 {
   public class TVEventsArgs : EventArgs
   {
-    public TVEventsArgs() : base()
+    public DateTime Fecha
     {
-
+      get
+      {
+        return DateTime.Now;
+      }        
     }
   }
 }

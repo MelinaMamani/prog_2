@@ -47,6 +47,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
     <Compile Include="Televisor.cs" />
+    <Compile Include="TVEventsArgs.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

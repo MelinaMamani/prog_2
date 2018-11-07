@@ -19,14 +19,15 @@ namespace EventosTest
       Console.WriteLine("Estoy dentro del segundo metodo del delegado");
     }
 
-    public void Mostrar(Televisor televisor)
+    public void Mostrar(Televisor televisor, TVEventsArgs tVEventsArgs)
     {
       Console.WriteLine(televisor.id +" - "+televisor.marca+" - "+(float)televisor.precio+" - "+televisor.pulgadas+" - "+televisor.pais);
+      Console.WriteLine("Agregado a las: "+tVEventsArgs.Fecha);
     }
 
     static void Main(string[] args)
     {
-      Televisor t = new Televisor(130,"LG",90000,100,"Argentina");
+      Televisor t = new Televisor(131,"Philips",6000,32,"EEUU");
 
       t.miEvento += new MiDelegado(Program.PruebaEvento);
       t.miEvento += new MiDelegado(new Program().PruebaEvento2);
