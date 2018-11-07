@@ -26,7 +26,7 @@ namespace BDConsola.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=LAB5PC12\\SQLEXPRESS;Initial Catalog=Productos;Integrated Security=Tru" +
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=LAB5PC07\\SQLEXPRESS;Initial Catalog=Productos;Integrated Security=Tru" +
             "e")]
         public string conexion {
             get {

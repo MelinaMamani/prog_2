@@ -1,13 +1,6 @@
 <?xml version="1.0" standalone="yes"?>
 <DocumentElement>
   <Televisores>
-    <codigo>123</codigo>
-    <marca>Noblex</marca>
-    <precio>5999</precio>
-    <pulgadas>32</pulgadas>
-    <pais>Argentina</pais>
-  </Televisores>
-  <Televisores>
     <codigo>124</codigo>
     <marca>Philips</marca>
     <precio>18950</precio>
@@ -15,10 +8,17 @@
     <pais>China</pais>
   </Televisores>
   <Televisores>
-    <codigo>125</codigo>
+    <codigo>126</codigo>
+    <marca>Samsung</marca>
+    <precio>14000</precio>
+    <pulgadas>52</pulgadas>
+    <pais>Argentina</pais>
+  </Televisores>
+  <Televisores>
+    <codigo>127</codigo>
     <marca>Samsung</marca>
     <precio>16999</precio>
     <pulgadas>50</pulgadas>
-    <pais>Argentina</pais>
+    <pais>Corea del Sur</pais>
   </Televisores>
 </DocumentElement>

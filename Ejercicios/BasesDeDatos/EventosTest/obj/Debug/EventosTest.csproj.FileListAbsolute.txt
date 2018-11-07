@@ -1,0 +1,11 @@
+C:\Users\alumno\Desktop\p\prog_2\Ejercicios\BasesDeDatos\EventosTest\bin\Debug\EventosTest.exe.config
+C:\Users\alumno\Desktop\p\prog_2\Ejercicios\BasesDeDatos\EventosTest\bin\Debug\EventosTest.exe
+C:\Users\alumno\Desktop\p\prog_2\Ejercicios\BasesDeDatos\EventosTest\bin\Debug\EventosTest.pdb
+C:\Users\alumno\Desktop\p\prog_2\Ejercicios\BasesDeDatos\EventosTest\bin\Debug\Entidades.dll
+C:\Users\alumno\Desktop\p\prog_2\Ejercicios\BasesDeDatos\EventosTest\bin\Debug\Entidades.pdb
+C:\Users\alumno\Desktop\p\prog_2\Ejercicios\BasesDeDatos\EventosTest\bin\Debug\Entidades.dll.config
+C:\Users\alumno\Desktop\p\prog_2\Ejercicios\BasesDeDatos\EventosTest\obj\Debug\EventosTest.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\p\prog_2\Ejercicios\BasesDeDatos\EventosTest\obj\Debug\EventosTest.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\p\prog_2\Ejercicios\BasesDeDatos\EventosTest\obj\Debug\EventosTest.csproj.CopyComplete
+C:\Users\alumno\Desktop\p\prog_2\Ejercicios\BasesDeDatos\EventosTest\obj\Debug\EventosTest.exe
+C:\Users\alumno\Desktop\p\prog_2\Ejercicios\BasesDeDatos\EventosTest\obj\Debug\EventosTest.pdb
