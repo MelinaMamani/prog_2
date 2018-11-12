@@ -1,0 +1,7 @@
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\Ejercicio9\bin\Debug\Ejercicio9.exe.config
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\Ejercicio9\bin\Debug\Ejercicio9.exe
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\Ejercicio9\bin\Debug\Ejercicio9.pdb
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\Ejercicio9\obj\Debug\Ejercicio9.csprojAssemblyReference.cache
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\Ejercicio9\obj\Debug\Ejercicio9.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\Ejercicio9\obj\Debug\Ejercicio9.exe
+C:\Users\Usuario\Desktop\Programacion 2\Ejercicios\Mamani.Erika.2A\Ejercicio9\obj\Debug\Ejercicio9.pdb
