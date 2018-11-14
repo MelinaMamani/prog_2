@@ -3,8 +3,8 @@
   <CodeSnippet Format="1.0.0">
     <Header>
       <Title>Archivo TXT guardar</Title>
-      <Shortcut>txtSave</Shortcut>
-      <Description>Fragmento de código para metodo que almacena datos en txt</Description>
+      <Shortcut>txtRead</Shortcut>
+      <Description>Fragmento de código para metodo que lee datos en txt</Description>
       <Author>Erika</Author>
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>
@@ -15,31 +15,34 @@
       <Declarations>
         <Literal>
           <ID>tipo</ID>
-          <ToolTip>Tipo de retorno del metodo</ToolTip> 
-          <Default>bool</Default> 
+          <ToolTip>Tipo de retorno del metodo</ToolTip>
+          <Default>bool</Default>
         </Literal>
         <Literal>
-          <ID>path</ID>
+          <ID>archivo</ID>
           <ToolTip>Nombre de la variable</ToolTip>
-          <Default>ruta</Default>
+          <Default>archivo</Default>
         </Literal>
         <Literal>
-          <ID>contenido</ID>
+          <ID>datos</ID>
           <ToolTip>Nombre de la variable</ToolTip>
-          <Default>contenido</Default>
+          <Default>datos</Default>
         </Literal>
       </Declarations>
       <Code Language="csharp">
-        <![CDATA[public $tipo$ Guardar(string $path$ , string $contenido$)
+        <![CDATA[public bool Leer(string $archivo$, out string $datos$)
         {
-            using (StreamWriter stream = new StreamWriter($path$))
+            $datos$ = "";
+            using (StreamReader stream = new StreamReader($archivo$))
                 {
-                    stream.WriteLine($contenido$);
+                    $datos$ = stream.ReadToEnd();
                     stream.Close();
                 }
-            return true;
+            
+           return true;
         }$end$]]>
       </Code>
     </Snippet>
   </CodeSnippet>
 </CodeSnippets>
+

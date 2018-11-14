@@ -15,28 +15,27 @@
       <Declarations>
         <Literal>
           <ID>tipo</ID>
-          <ToolTip>Tipo de retorno del metodo</ToolTip> 
-          <Default>bool</Default> 
+          <ToolTip>Tipo de retorno del metodo</ToolTip>
+          <Default>bool</Default>
         </Literal>
         <Literal>
-          <ID>path</ID>
+          <ID>archivo</ID>
           <ToolTip>Nombre de la variable</ToolTip>
-          <Default>ruta</Default>
+          <Default>archivo</Default>
         </Literal>
         <Literal>
-          <ID>contenido</ID>
+          <ID>datos</ID>
           <ToolTip>Nombre de la variable</ToolTip>
-          <Default>contenido</Default>
+          <Default>datos</Default>
         </Literal>
       </Declarations>
       <Code Language="csharp">
-        <![CDATA[public $tipo$ Guardar(string $path$ , string $contenido$)
+        <![CDATA[public bool Leer(string $archivo$, out T $datos$)
         {
-            using (StreamWriter stream = new StreamWriter($path$))
-                {
-                    stream.WriteLine($contenido$);
-                    stream.Close();
-                }
+            XmlTextReader reader = new XmlTextReader($archivo$);
+            XmlSerializer deserializer = new XmlSerializer(typeof(T));
+            $datos$ = (T)deserializer.Deserialize(reader);
+            reader.Close();
             return true;
         }$end$]]>
       </Code>
