@@ -1,0 +1,13 @@
+D:\VisualStudio\UltimasClases\TestPersona\bin\Debug\TestPersona.exe.config
+D:\VisualStudio\UltimasClases\TestPersona\bin\Debug\TestPersona.exe
+D:\VisualStudio\UltimasClases\TestPersona\bin\Debug\TestPersona.pdb
+D:\VisualStudio\UltimasClases\TestPersona\bin\Debug\Entidades.dll
+D:\VisualStudio\UltimasClases\TestPersona\bin\Debug\Entidades.pdb
+D:\VisualStudio\UltimasClases\TestPersona\obj\Debug\TestPersona.csprojAssemblyReference.cache
+D:\VisualStudio\UltimasClases\TestPersona\obj\Debug\TestPersona.csproj.CoreCompileInputs.cache
+D:\VisualStudio\UltimasClases\TestPersona\obj\Debug\TestPersona.csproj.CopyComplete
+D:\VisualStudio\UltimasClases\TestPersona\obj\Debug\TestPersona.exe
+D:\VisualStudio\UltimasClases\TestPersona\obj\Debug\TestPersona.pdb
+D:\VisualStudio\UltimasClases\TestPersona\bin\Debug\Entidades.Externa.dll
+D:\VisualStudio\UltimasClases\TestPersona\bin\Debug\Entidades.Externa.Sellada.dll
+D:\VisualStudio\UltimasClases\TestPersona\bin\Debug\Entidades.dll.config
