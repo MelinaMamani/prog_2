@@ -1,0 +1,3 @@
+C:\Users\alumno\Desktop\prog_2\2016.Formatos\Mamani.Erika.2A\obj\x86\Debug\RPP.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\prog_2\2016.Formatos\Mamani.Erika.2A\obj\x86\Debug\PP.frmPP.resources
+C:\Users\alumno\Desktop\prog_2\2016.Formatos\Mamani.Erika.2A\obj\x86\Debug\RPP.csproj.GenerateResource.cache

@@ -45,6 +45,7 @@
     <Compile Include="BancoProvincial.cs" />
     <Compile Include="ClaseConstructores.cs" />
     <Compile Include="Deposito.cs" />
+    <Compile Include="DepositoIndexado.cs" />
     <Compile Include="Producto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
