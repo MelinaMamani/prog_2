@@ -1,0 +1,10 @@
+C:\Users\alumno\Desktop\prog_2\Ejercicios\BasesDeDatos\UtilesConsola\bin\Debug\UtilesConsola.exe.config
+C:\Users\alumno\Desktop\prog_2\Ejercicios\BasesDeDatos\UtilesConsola\bin\Debug\UtilesConsola.exe
+C:\Users\alumno\Desktop\prog_2\Ejercicios\BasesDeDatos\UtilesConsola\bin\Debug\UtilesConsola.pdb
+C:\Users\alumno\Desktop\prog_2\Ejercicios\BasesDeDatos\UtilesConsola\bin\Debug\UEntidades.dll
+C:\Users\alumno\Desktop\prog_2\Ejercicios\BasesDeDatos\UtilesConsola\bin\Debug\UEntidades.pdb
+C:\Users\alumno\Desktop\prog_2\Ejercicios\BasesDeDatos\UtilesConsola\obj\Debug\UtilesConsola.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\prog_2\Ejercicios\BasesDeDatos\UtilesConsola\obj\Debug\UtilesConsola.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\prog_2\Ejercicios\BasesDeDatos\UtilesConsola\obj\Debug\UtilesConsola.csproj.CopyComplete
+C:\Users\alumno\Desktop\prog_2\Ejercicios\BasesDeDatos\UtilesConsola\obj\Debug\UtilesConsola.exe
+C:\Users\alumno\Desktop\prog_2\Ejercicios\BasesDeDatos\UtilesConsola\obj\Debug\UtilesConsola.pdb

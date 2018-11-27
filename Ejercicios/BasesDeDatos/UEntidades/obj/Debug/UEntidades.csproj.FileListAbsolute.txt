@@ -1,0 +1,6 @@
+C:\Users\alumno\Desktop\prog_2\Ejercicios\BasesDeDatos\UEntidades\bin\Debug\UEntidades.dll
+C:\Users\alumno\Desktop\prog_2\Ejercicios\BasesDeDatos\UEntidades\bin\Debug\UEntidades.pdb
+C:\Users\alumno\Desktop\prog_2\Ejercicios\BasesDeDatos\UEntidades\obj\Debug\UEntidades.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\prog_2\Ejercicios\BasesDeDatos\UEntidades\obj\Debug\UEntidades.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\prog_2\Ejercicios\BasesDeDatos\UEntidades\obj\Debug\UEntidades.dll
+C:\Users\alumno\Desktop\prog_2\Ejercicios\BasesDeDatos\UEntidades\obj\Debug\UEntidades.pdb
