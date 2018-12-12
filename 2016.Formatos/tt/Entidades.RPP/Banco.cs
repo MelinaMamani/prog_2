@@ -9,8 +9,6 @@ namespace Entidades.RPP
   {
     public string nombre;
 
-    public string Nombre{ get { return this.nombre; } }
-
     public Banco(string nombre)
     {
       this.nombre = nombre;

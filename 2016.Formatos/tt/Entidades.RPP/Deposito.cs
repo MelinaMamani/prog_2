@@ -8,102 +8,97 @@ namespace Entidades.RPP
 {
     public class Deposito
     {
-    #region Atributos
-    private int _maxCap;
-    public Producto[] productos;
+        #region Atributos
+        public Producto[] productos;
 
-    #endregion
+        #endregion
 
-    #region Properties
-    public int Capacidad
-    {
-      get { return this._maxCap; }
-      set { this._maxCap = value; }
-    }
-    #endregion
-
-    #region Constructor
-    public Deposito() : this (3)
-    {
-    }
-
-    public Deposito(int cap)
-    {
-      this.Capacidad = cap;
-      this.productos = new Producto[Capacidad];
-    }
-    #endregion
-
-    #region Metodos
-    public Producto[] OrdenadoPorStock()
-    {
-      Producto aux;
-
-      for (int i = 1; i < this.Capacidad; i++)
-      {
-        for (int j = this.Capacidad - 1; j >= i; j--)
+        #region Constructor
+        public Deposito() : this (3)
         {
-          if (this.productos[i].Stock > this.productos[j].Stock)
-          {
-            aux = this.productos[j - 1];
-            this.productos[j - 1] = this.productos[j];
-            this.productos[j] = aux;
-          }
         }
-      }
 
-      return this.productos;
-    }
-
-    public Producto[] OrdenadoPorNombre()
-    {
-      Producto aux;
-
-      for (int i = 1; i < this.Capacidad; i++)
-      {
-        for (int j = this.Capacidad - 1; j >= i; j--)
+        public Deposito(int cap)
         {
-          if (String.Compare(this.productos[i].Nombre, this.productos[j].Nombre)> 0)
-          {
-            aux = this.productos[j - 1];
-            this.productos[j - 1] = this.productos[j];
-            this.productos[j] = aux;
-          }
+          this.productos = new Producto[cap];
         }
-      }
+        #endregion
 
-      return this.productos;
-    }
-    #endregion
-
-    #region Sobrecargas
-    public static Producto[] operator +(Deposito d1,Deposito d2)
-    {
-      int length = d1.Capacidad + d2.Capacidad;
-      Producto[] lista = new Producto[length];
-
-      for(int i=0;i<d1.Capacidad;i++)
-      {
-        lista[i] = d1.productos[i];
-      }
-
-      for(int i=0;i<length;i++)
-      {
-        for(int j=0;j<d2.Capacidad;j++)
+        #region Metodos
+        public Producto[] OrdenadoPorStock(int tam)
         {
-          if(lista[i].Nombre == d2.productos[j].Nombre)
-          {
-            lista[i].Stock += d2.productos[j].Stock;
-          }
-          else/* if(lista[i]==null)*/
-          {
-            lista[i] = d2.productos[j];
-          }
-        }
-      }
+            Producto aux;
 
-      return lista;
+            for (int i = 0; i < tam; i++)
+            {
+                for (int j = i + 1; j < tam; j++)
+                {
+                    if (this.productos[i].Stock > this.productos[j].Stock)
+                    {
+                        aux = this.productos[i];
+                        this.productos[i] = this.productos[j];
+                        this.productos[j] = aux;
+                    }
+                }
+            }
+
+            return this.productos;
+        }
+
+        public Producto[] OrdenadoPorNombre(int tam)
+        {
+            Producto aux;
+
+            for (int i = 0; i < tam; i++)
+            {
+                for (int j = i + 1; j < tam; j++)
+                {
+                    if (String.Compare(this.productos[i].Nombre, this.productos[j].Nombre) > 0)
+                    {
+                        aux = this.productos[i];
+                        this.productos[i] = this.productos[j];
+                        this.productos[j] = aux;
+                    }
+                }
+            }
+
+            return this.productos;
+        }
+        #endregion
+
+        #region Sobrecargas
+        public static Producto[] operator +(Deposito d1,Deposito d2)
+        {
+            Producto[] array = new Producto[d1.productos.Length + d2.productos.Length];
+            d1.productos.CopyTo(array, 0);
+            d2.productos.CopyTo(array, d1.productos.Length);
+
+            for (int i = 0; i < d1.productos.Length; i++)
+            {
+                array[i] = d1.productos[i];
+            }
+            for (int i = d1.productos.Length; i < d2.productos.Length + d1.productos.Length; i++)
+            {
+                array[i] = d2.productos[i - d1.productos.Length];
+            }
+
+            for (int i = 0; i < array.Length - 1; i++)
+            {
+                for (int j = i + 1; j < array.Length; j++)
+                {
+                    if (array[i] != null && array[j] != null)
+                    {
+                        if (array[i] == array[j])
+                        {
+                            array[i].stock += array[j].stock;
+                            array[j] = null;
+                        }
+                    }
+                }
+            }
+
+            return array;
+        }
+        #endregion
     }
-    #endregion
-  }
 }

@@ -7,3 +7,9 @@ C:\Users\alumno\Desktop\rec.primer.parcial\Entidades.RPP\obj\Debug\Entidades.RPP
 C:\Users\alumno\Desktop\rec.primer.parcial\Entidades.RPP\obj\Debug\Entidades.RPP.csproj.CopyComplete
 C:\Users\alumno\Desktop\rec.primer.parcial\Entidades.RPP\obj\Debug\Entidades.RPP.dll
 C:\Users\alumno\Desktop\rec.primer.parcial\Entidades.RPP\obj\Debug\Entidades.RPP.pdb
+C:\Users\Usuario\Desktop\Programacion 2\2016.Formatos\tt\Entidades.RPP\bin\Debug\Entidades.RPP.dll
+C:\Users\Usuario\Desktop\Programacion 2\2016.Formatos\tt\Entidades.RPP\bin\Debug\Entidades.RPP.pdb
+C:\Users\Usuario\Desktop\Programacion 2\2016.Formatos\tt\Entidades.RPP\obj\Debug\Entidades.RPP.csprojAssemblyReference.cache
+C:\Users\Usuario\Desktop\Programacion 2\2016.Formatos\tt\Entidades.RPP\obj\Debug\Entidades.RPP.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Programacion 2\2016.Formatos\tt\Entidades.RPP\obj\Debug\Entidades.RPP.dll
+C:\Users\Usuario\Desktop\Programacion 2\2016.Formatos\tt\Entidades.RPP\obj\Debug\Entidades.RPP.pdb

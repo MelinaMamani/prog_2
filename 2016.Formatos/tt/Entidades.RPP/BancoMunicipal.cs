@@ -7,33 +7,22 @@ namespace Entidades.RPP
 {
   public class BancoMunicipal : BancoProvincial
   {
-    string municipio;
+    public string municipio;
 
-    public BancoMunicipal(BancoProvincial bp,string municipio): base(new BancoNacional(bp.Nombre,bp.Pais),bp.Provincia)
+    public BancoMunicipal(BancoProvincial bp, string municipio)
+        : base(new BancoNacional(bp.nombre, bp.pais), bp.provincia)
     {
-      this.municipio = municipio;
+        this.municipio = municipio;
     }
 
+    public override string ToString()
+    {
+        return base.Mostrar(this);
+    }
+    
     public static implicit operator string(BancoMunicipal bm)
     {
-      return bm.ToString();
-    }
-
-    //public override string ToString()
-    //{
-    //  return base.ToString();
-    //}
-
-    public override string Mostrar()
-    {
-
-      return base.Mostrar();
-    }
-
-    public override string Mostrar(Banco b)
-    {
-
-      return base.Mostrar(b) + " " + this.municipio;
+        return bm.ToString();
     }
   }
 }

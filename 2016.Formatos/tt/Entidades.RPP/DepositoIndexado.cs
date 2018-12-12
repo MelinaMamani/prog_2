@@ -13,19 +13,15 @@ namespace Entidades.RPP
     {
       get
       {
-        if (indice >= 0 && !(Object.Equals(this.productos[indice], null)) && indice < this.Capacidad)
-        {
-          return this.productos[indice];
-        }
+        if (indice >= this.productos.GetLength(0) || indice < 0)
+            return null;
         else
-        {
-          return null;
-        }
+            return this.productos[indice];
       }
 
       set
       {
-        if (indice >= 0 && indice < this.Capacidad)
+        if (indice >= 0 && indice < this.productos.GetLength(0))
         {
           this.productos[indice] = value;
         }

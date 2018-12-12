@@ -7,28 +7,17 @@ namespace Entidades.RPP
 {
   public class BancoProvincial : BancoNacional
   {
-    string provincia;
+    public string provincia;
 
-    public string Provincia
+    public BancoProvincial(BancoNacional bn, string provincia)
+        : base(bn.nombre, bn.pais)
     {
-      get{ return this.provincia; }
+        this.provincia = provincia;
     }
 
-    public BancoProvincial(BancoNacional bn, string provincia):base(bn.Nombre,bn.Pais)
+    public override string ToString()
     {
-      this.provincia = provincia;
+        return base.Mostrar(this);
     }
-
-    public override string Mostrar()
-    {
-
-      return base.Mostrar();
     }
-
-    public override string Mostrar(Banco b)
-    {
-
-      return base.Mostrar(b) + " "+this.Provincia;
-    }
-  }
 }

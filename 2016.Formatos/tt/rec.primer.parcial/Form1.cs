@@ -56,6 +56,7 @@ namespace rec.primer.parcial
             String s = "";
             foreach (Producto item in aux)
             {
+                if(item != null)
                 s += (item.nombre + " - " + item.stock + "\n");
             }
             //tomate-->30
@@ -139,7 +140,7 @@ namespace rec.primer.parcial
             d[2] = p3;
             d[3] = p3;
 
-            String s = "";
+            string s = "";
             for (int i = 0; i < 3; i++)
             {
                 s += (d[i].nombre + " - " + d[i].stock + "\n");
@@ -164,10 +165,10 @@ namespace rec.primer.parcial
             d1.productos[2] = p3;
             d1.productos[3] = p4;
 
-            String s = "";
-      //ordenado por stock ascendente
-      d1.productos = d1.OrdenadoPorStock();
-      for (int i = 0; i < 3; i++)
+            string s = "";
+            //ordenado por stock ascendente
+            d1.productos = d1.OrdenadoPorStock(d1.productos.Length);
+            for (int i = 0; i < 4; i++)
             {
                 s += (d1.productos[i].nombre + " - " + d1.productos[i].stock + "\n");
             }
@@ -191,10 +192,10 @@ namespace rec.primer.parcial
             d1.productos[2] = p3;
             d1.productos[3] = p4;
 
-            String s = "";
-      //ordenado por nombre alfabeticamente
-            d1.productos = d1.OrdenadoPorNombre();
-            for (int i = 0; i < 3; i++)
+            string s = "";
+            //ordenado por nombre alfabeticamente
+            d1.productos = d1.OrdenadoPorNombre(d1.productos.Length);
+            for (int i = 0; i < 4; i++)
             {
                 s += (d1.productos[i].nombre + " - " + d1.productos[i].stock + "\n");
             }

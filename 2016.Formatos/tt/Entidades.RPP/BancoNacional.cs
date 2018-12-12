@@ -9,26 +9,39 @@ namespace Entidades.RPP
   {
     public string pais;
 
+    public BancoNacional(string nombre, string pais)
+        : base(nombre)
+    {
+        this.pais = pais;
+    }
+
     public override string Mostrar()
     {
-
-      return base.Nombre;
+        return this.nombre;
     }
 
     public override string Mostrar(Banco b)
     {
+        string cadena = "";
+        if (b is BancoMunicipal)
+        {
+            cadena += ((BancoMunicipal)b).pais + "---" + ((BancoMunicipal)b).provincia + "---" + ((BancoMunicipal)b).municipio;
+        }
+        else if (b is BancoProvincial)
+        {
+            cadena += ((BancoProvincial)b).pais + "---" + ((BancoProvincial)b).provincia;
+        }
+        else if (b is BancoNacional)
+        {
+            cadena += this.pais;
+        }
 
-      return this.Pais;
+        return cadena;
     }
 
-    public string Pais
+    public override string ToString()
     {
-      get { return this.pais; }
-    }
-
-    public BancoNacional(string nombre, string pais) : base(nombre)
-    {
-      this.pais = pais;
+        return this.Mostrar(this);
     }
   }
 }

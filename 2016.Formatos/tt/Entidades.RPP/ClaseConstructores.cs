@@ -8,54 +8,52 @@ namespace Entidades.RPP
 {
   public class ClaseConstructores
   {
-    public static int var1;
+        static ClaseConstructores()
+        {
+            MessageBox.Show("Estoy en el cons. estatico");
+            ClaseConstructores c1 = new ClaseConstructores("a", 2);
+        }
+        private ClaseConstructores(string nombre, int edad)
+        {
+            MessageBox.Show("Estoy en el cons. priv. de parametros");
 
-    public int var2;
-    public int var3;
+        }
+        public ClaseConstructores()
+        {
+
+            MessageBox.Show("Estoy en el cons. por defecto.");
+            Escritura = 2;
 
 
-    public int prop1;
-    public int Propiedad1
-    {
-      set
-      {
-        this.prop1 = value;
-      }
+        }
+
+        public int Escritura
+        {
+            set
+            {
+                MessageBox.Show("Estoy en prop. escritura");
+                string ahre = Lectura;
+            }
+        }
+        public string Lectura
+        {
+            get
+            {
+                MessageBox.Show("Estoy en prop. lectura");
+                return this.MetodoInstancia().ToString();
+            }
+        }
+
+        private int MetodoInstancia()
+        {
+            MessageBox.Show("Estoy en metodo instancia");
+            return ClaseConstructores.MetodoEstatico();
+        }
+
+        private static int MetodoEstatico()
+        {
+            MessageBox.Show("Estoy en metodo estatico");
+            return 2;
+        }
     }
-
-    public int prop2;
-    public int Propiedad2
-    {
-      get
-      {
-        return this.prop2;
-      }
-    }
-
-    static ClaseConstructores()
-    {
-      ClaseConstructores.var1 = 1;
-    }
-
-    private ClaseConstructores(int num1, int num2)
-    {
-      this.var2 = num1;
-      this.var3 = num2;
-    }
-
-    public ClaseConstructores()
-    {
-
-    }
-
-    public string MetodoDeInstancia()
-    {
-      return "Metodo de instancia";
-    }
-
-    public static string MetodoDeClase()
-    {
-      return "Metodo de clase";
-    }
-  }
 }

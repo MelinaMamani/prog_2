@@ -11,3 +11,16 @@ C:\Users\alumno\Desktop\rec.primer.parcial\rec.primer.parcial\obj\Debug\rec.prim
 C:\Users\alumno\Desktop\rec.primer.parcial\rec.primer.parcial\obj\Debug\rec.primer.parcial.csproj.CopyComplete
 C:\Users\alumno\Desktop\rec.primer.parcial\rec.primer.parcial\obj\Debug\rec.primer.parcial.exe
 C:\Users\alumno\Desktop\rec.primer.parcial\rec.primer.parcial\obj\Debug\rec.primer.parcial.pdb
+C:\Users\Usuario\Desktop\Programacion 2\2016.Formatos\tt\rec.primer.parcial\bin\Debug\rec.primer.parcial.exe.config
+C:\Users\Usuario\Desktop\Programacion 2\2016.Formatos\tt\rec.primer.parcial\bin\Debug\rec.primer.parcial.exe
+C:\Users\Usuario\Desktop\Programacion 2\2016.Formatos\tt\rec.primer.parcial\bin\Debug\rec.primer.parcial.pdb
+C:\Users\Usuario\Desktop\Programacion 2\2016.Formatos\tt\rec.primer.parcial\bin\Debug\Entidades.RPP.dll
+C:\Users\Usuario\Desktop\Programacion 2\2016.Formatos\tt\rec.primer.parcial\bin\Debug\Entidades.RPP.pdb
+C:\Users\Usuario\Desktop\Programacion 2\2016.Formatos\tt\rec.primer.parcial\obj\Debug\rec.primer.parcial.csprojAssemblyReference.cache
+C:\Users\Usuario\Desktop\Programacion 2\2016.Formatos\tt\rec.primer.parcial\obj\Debug\rec.primer.parcial.Form1.resources
+C:\Users\Usuario\Desktop\Programacion 2\2016.Formatos\tt\rec.primer.parcial\obj\Debug\rec.primer.parcial.Properties.Resources.resources
+C:\Users\Usuario\Desktop\Programacion 2\2016.Formatos\tt\rec.primer.parcial\obj\Debug\rec.primer.parcial.csproj.GenerateResource.cache
+C:\Users\Usuario\Desktop\Programacion 2\2016.Formatos\tt\rec.primer.parcial\obj\Debug\rec.primer.parcial.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Programacion 2\2016.Formatos\tt\rec.primer.parcial\obj\Debug\rec.primer.parcial.csproj.CopyComplete
+C:\Users\Usuario\Desktop\Programacion 2\2016.Formatos\tt\rec.primer.parcial\obj\Debug\rec.primer.parcial.exe
+C:\Users\Usuario\Desktop\Programacion 2\2016.Formatos\tt\rec.primer.parcial\obj\Debug\rec.primer.parcial.pdb
