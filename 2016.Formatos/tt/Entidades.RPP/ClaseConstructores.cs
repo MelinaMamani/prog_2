@@ -22,7 +22,7 @@ namespace Entidades.RPP
         {
 
             MessageBox.Show("Estoy en el cons. por defecto.");
-            Escritura = 2;
+            this.Escritura = 2;
 
 
         }
@@ -32,7 +32,7 @@ namespace Entidades.RPP
             set
             {
                 MessageBox.Show("Estoy en prop. escritura");
-                string ahre = Lectura;
+                string ahre = this.Lectura;
             }
         }
         public string Lectura
